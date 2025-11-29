@@ -1,1 +1,38 @@
-print("Entry point")
+import pandas as pd
+
+
+# Excel einlesen
+df = pd.read_excel("data/raw/enterprise-attack-v18.1-techniques.xlsx", sheet_name="techniques")
+
+# Wir nehmen an:
+# df["ID"]  = z.B. "T1595.001"
+# df["name"] = z.B. "Active Scanning: Scanning IP Blocks"
+
+# Haupt-Techniques (ohne Punkt)
+main = df[~df["ID"].str.contains(r"\.")].copy()
+
+# Subtechniques (mit Punkt)
+subs = df[df["ID"].str.contains(r"\.")].copy()
+
+# Mapping von Technique-ID zu (ID, Name)
+main_map = {row["ID"]: row["name"] for _, row in main.iterrows()}
+
+rows = []
+
+for _, row in subs.iterrows():
+    sub_id = row["ID"]                          # T1595.001
+    parent_id = sub_id.split(".")[0]            # T1595
+    sub_name = row["name"]                      # Active Scanning: Scanning IP Blocks
+    main_name = main_map.get(parent_id, "UNKNOWN")  # falls Zuordnung fehlt
+
+    # Beispiel: "T1595 Active Scanning -> T1595.001 Active Scanning: Scanning IP Blocks"
+    mitre_field = f"{parent_id} {main_name} -> {sub_id} {sub_name}"
+
+    rows.append({
+        "Summary": "Example Summary",
+        "MITRE": mitre_field
+    })
+
+# In CSV schreiben
+out = pd.DataFrame(rows)
+out.to_csv("data/output/output.csv", index=False)
