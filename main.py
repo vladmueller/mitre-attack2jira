@@ -41,7 +41,7 @@ for _, row in subs.iterrows():
     mitre_field = f"{parent_id} {main_name} -> {sub_id} {sub_name}"
 
     rows.append({
-        "IssueKey": "DETE-1",          # existierendes Issue
+        "IssueKey": "DETE-9",          # existierendes Issue
         "Summary": "CSV-IMPORT",       # Jira verlangt die Spalte Summary
         "MITRE": mitre_field           # Custom-Field-Wert
     })
