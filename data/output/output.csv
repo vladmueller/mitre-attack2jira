@@ -1,476 +1,476 @@
-Summary,MITRE
-Example Summary,T1548 Abuse Elevation Control Mechanism -> T1548.002 Abuse Elevation Control Mechanism: Bypass User Account Control
-Example Summary,T1548 Abuse Elevation Control Mechanism -> T1548.004 Abuse Elevation Control Mechanism: Elevated Execution with Prompt
-Example Summary,T1548 Abuse Elevation Control Mechanism -> T1548.001 Abuse Elevation Control Mechanism: Setuid and Setgid
-Example Summary,T1548 Abuse Elevation Control Mechanism -> T1548.003 Abuse Elevation Control Mechanism: Sudo and Sudo Caching
-Example Summary,T1548 Abuse Elevation Control Mechanism -> T1548.006 Abuse Elevation Control Mechanism: TCC Manipulation
-Example Summary,T1548 Abuse Elevation Control Mechanism -> T1548.005 Abuse Elevation Control Mechanism: Temporary Elevated Cloud Access
-Example Summary,T1134 Access Token Manipulation -> T1134.002 Access Token Manipulation: Create Process with Token
-Example Summary,T1134 Access Token Manipulation -> T1134.003 Access Token Manipulation: Make and Impersonate Token
-Example Summary,T1134 Access Token Manipulation -> T1134.004 Access Token Manipulation: Parent PID Spoofing
-Example Summary,T1134 Access Token Manipulation -> T1134.005 Access Token Manipulation: SID-History Injection
-Example Summary,T1134 Access Token Manipulation -> T1134.001 Access Token Manipulation: Token Impersonation/Theft
-Example Summary,T1087 Account Discovery -> T1087.004 Account Discovery: Cloud Account
-Example Summary,T1087 Account Discovery -> T1087.002 Account Discovery: Domain Account
-Example Summary,T1087 Account Discovery -> T1087.003 Account Discovery: Email Account
-Example Summary,T1087 Account Discovery -> T1087.001 Account Discovery: Local Account
-Example Summary,T1098 Account Manipulation -> T1098.001 Account Manipulation: Additional Cloud Credentials
-Example Summary,T1098 Account Manipulation -> T1098.003 Account Manipulation: Additional Cloud Roles
-Example Summary,T1098 Account Manipulation -> T1098.006 Account Manipulation: Additional Container Cluster Roles
-Example Summary,T1098 Account Manipulation -> T1098.002 Account Manipulation: Additional Email Delegate Permissions
-Example Summary,T1098 Account Manipulation -> T1098.007 Account Manipulation: Additional Local or Domain Groups
-Example Summary,T1098 Account Manipulation -> T1098.005 Account Manipulation: Device Registration
-Example Summary,T1098 Account Manipulation -> T1098.004 Account Manipulation: SSH Authorized Keys
-Example Summary,T1583 Acquire Infrastructure -> T1583.005 Acquire Infrastructure: Botnet
-Example Summary,T1583 Acquire Infrastructure -> T1583.002 Acquire Infrastructure: DNS Server
-Example Summary,T1583 Acquire Infrastructure -> T1583.001 Acquire Infrastructure: Domains
-Example Summary,T1583 Acquire Infrastructure -> T1583.008 Acquire Infrastructure: Malvertising
-Example Summary,T1583 Acquire Infrastructure -> T1583.004 Acquire Infrastructure: Server
-Example Summary,T1583 Acquire Infrastructure -> T1583.007 Acquire Infrastructure: Serverless
-Example Summary,T1583 Acquire Infrastructure -> T1583.003 Acquire Infrastructure: Virtual Private Server
-Example Summary,T1583 Acquire Infrastructure -> T1583.006 Acquire Infrastructure: Web Services
-Example Summary,T1595 Active Scanning -> T1595.001 Active Scanning: Scanning IP Blocks
-Example Summary,T1595 Active Scanning -> T1595.002 Active Scanning: Vulnerability Scanning
-Example Summary,T1595 Active Scanning -> T1595.003 Active Scanning: Wordlist Scanning
-Example Summary,T1557 Adversary-in-the-Middle -> T1557.002 Adversary-in-the-Middle: ARP Cache Poisoning
-Example Summary,T1557 Adversary-in-the-Middle -> T1557.003 Adversary-in-the-Middle: DHCP Spoofing
-Example Summary,T1557 Adversary-in-the-Middle -> T1557.004 Adversary-in-the-Middle: Evil Twin
-Example Summary,T1557 Adversary-in-the-Middle -> T1557.001 Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay
-Example Summary,T1071 Application Layer Protocol -> T1071.004 Application Layer Protocol: DNS
-Example Summary,T1071 Application Layer Protocol -> T1071.002 Application Layer Protocol: File Transfer Protocols
-Example Summary,T1071 Application Layer Protocol -> T1071.003 Application Layer Protocol: Mail Protocols
-Example Summary,T1071 Application Layer Protocol -> T1071.005 Application Layer Protocol: Publish/Subscribe Protocols
-Example Summary,T1071 Application Layer Protocol -> T1071.001 Application Layer Protocol: Web Protocols
-Example Summary,T1560 Archive Collected Data -> T1560.003 Archive Collected Data: Archive via Custom Method
-Example Summary,T1560 Archive Collected Data -> T1560.002 Archive Collected Data: Archive via Library
-Example Summary,T1560 Archive Collected Data -> T1560.001 Archive Collected Data: Archive via Utility
-Example Summary,T1020 Automated Exfiltration -> T1020.001 Automated Exfiltration: Traffic Duplication
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.014 Boot or Logon Autostart Execution: Active Setup
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.002 Boot or Logon Autostart Execution: Authentication Package
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.006 Boot or Logon Autostart Execution: Kernel Modules and Extensions
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.008 Boot or Logon Autostart Execution: LSASS Driver
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.015 Boot or Logon Autostart Execution: Login Items
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.010 Boot or Logon Autostart Execution: Port Monitors
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.012 Boot or Logon Autostart Execution: Print Processors
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.007 Boot or Logon Autostart Execution: Re-opened Applications
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.001 Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.005 Boot or Logon Autostart Execution: Security Support Provider
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.009 Boot or Logon Autostart Execution: Shortcut Modification
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.003 Boot or Logon Autostart Execution: Time Providers
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.004 Boot or Logon Autostart Execution: Winlogon Helper DLL
-Example Summary,T1547 Boot or Logon Autostart Execution -> T1547.013 Boot or Logon Autostart Execution: XDG Autostart Entries
-Example Summary,T1037 Boot or Logon Initialization Scripts -> T1037.002 Boot or Logon Initialization Scripts: Login Hook
-Example Summary,T1037 Boot or Logon Initialization Scripts -> T1037.001 Boot or Logon Initialization Scripts: Logon Script (Windows)
-Example Summary,T1037 Boot or Logon Initialization Scripts -> T1037.003 Boot or Logon Initialization Scripts: Network Logon Script
-Example Summary,T1037 Boot or Logon Initialization Scripts -> T1037.004 Boot or Logon Initialization Scripts: RC Scripts
-Example Summary,T1037 Boot or Logon Initialization Scripts -> T1037.005 Boot or Logon Initialization Scripts: Startup Items
-Example Summary,T1110 Brute Force -> T1110.004 Brute Force: Credential Stuffing
-Example Summary,T1110 Brute Force -> T1110.002 Brute Force: Password Cracking
-Example Summary,T1110 Brute Force -> T1110.001 Brute Force: Password Guessing
-Example Summary,T1110 Brute Force -> T1110.003 Brute Force: Password Spraying
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.002 Command and Scripting Interpreter: AppleScript
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.010 Command and Scripting Interpreter: AutoHotKey & AutoIT
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.009 Command and Scripting Interpreter: Cloud API
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.013 Command and Scripting Interpreter: Container CLI/API
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.012 Command and Scripting Interpreter: Hypervisor CLI
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.007 Command and Scripting Interpreter: JavaScript
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.011 Command and Scripting Interpreter: Lua
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.008 Command and Scripting Interpreter: Network Device CLI
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.001 Command and Scripting Interpreter: PowerShell
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.006 Command and Scripting Interpreter: Python
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.004 Command and Scripting Interpreter: Unix Shell
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.005 Command and Scripting Interpreter: Visual Basic
-Example Summary,T1059 Command and Scripting Interpreter -> T1059.003 Command and Scripting Interpreter: Windows Command Shell
-Example Summary,T1586 Compromise Accounts -> T1586.003 Compromise Accounts: Cloud Accounts
-Example Summary,T1586 Compromise Accounts -> T1586.002 Compromise Accounts: Email Accounts
-Example Summary,T1586 Compromise Accounts -> T1586.001 Compromise Accounts: Social Media Accounts
-Example Summary,T1584 Compromise Infrastructure -> T1584.005 Compromise Infrastructure: Botnet
-Example Summary,T1584 Compromise Infrastructure -> T1584.002 Compromise Infrastructure: DNS Server
-Example Summary,T1584 Compromise Infrastructure -> T1584.001 Compromise Infrastructure: Domains
-Example Summary,T1584 Compromise Infrastructure -> T1584.008 Compromise Infrastructure: Network Devices
-Example Summary,T1584 Compromise Infrastructure -> T1584.004 Compromise Infrastructure: Server
-Example Summary,T1584 Compromise Infrastructure -> T1584.007 Compromise Infrastructure: Serverless
-Example Summary,T1584 Compromise Infrastructure -> T1584.003 Compromise Infrastructure: Virtual Private Server
-Example Summary,T1584 Compromise Infrastructure -> T1584.006 Compromise Infrastructure: Web Services
-Example Summary,T1136 Create Account -> T1136.003 Create Account: Cloud Account
-Example Summary,T1136 Create Account -> T1136.002 Create Account: Domain Account
-Example Summary,T1136 Create Account -> T1136.001 Create Account: Local Account
-Example Summary,T1543 Create or Modify System Process -> T1543.005 Create or Modify System Process: Container Service
-Example Summary,T1543 Create or Modify System Process -> T1543.001 Create or Modify System Process: Launch Agent
-Example Summary,T1543 Create or Modify System Process -> T1543.004 Create or Modify System Process: Launch Daemon
-Example Summary,T1543 Create or Modify System Process -> T1543.002 Create or Modify System Process: Systemd Service
-Example Summary,T1543 Create or Modify System Process -> T1543.003 Create or Modify System Process: Windows Service
-Example Summary,T1555 Credentials from Password Stores -> T1555.006 Credentials from Password Stores: Cloud Secrets Management Stores
-Example Summary,T1555 Credentials from Password Stores -> T1555.003 Credentials from Password Stores: Credentials from Web Browsers
-Example Summary,T1555 Credentials from Password Stores -> T1555.001 Credentials from Password Stores: Keychain
-Example Summary,T1555 Credentials from Password Stores -> T1555.005 Credentials from Password Stores: Password Managers
-Example Summary,T1555 Credentials from Password Stores -> T1555.002 Credentials from Password Stores: Securityd Memory
-Example Summary,T1555 Credentials from Password Stores -> T1555.004 Credentials from Password Stores: Windows Credential Manager
-Example Summary,T1485 Data Destruction -> T1485.001 Data Destruction: Lifecycle-Triggered Deletion
-Example Summary,T1132 Data Encoding -> T1132.002 Data Encoding: Non-Standard Encoding
-Example Summary,T1132 Data Encoding -> T1132.001 Data Encoding: Standard Encoding
-Example Summary,T1565 Data Manipulation -> T1565.003 Data Manipulation: Runtime Data Manipulation
-Example Summary,T1565 Data Manipulation -> T1565.001 Data Manipulation: Stored Data Manipulation
-Example Summary,T1565 Data Manipulation -> T1565.002 Data Manipulation: Transmitted Data Manipulation
-Example Summary,T1001 Data Obfuscation -> T1001.001 Data Obfuscation: Junk Data
-Example Summary,T1001 Data Obfuscation -> T1001.003 Data Obfuscation: Protocol or Service Impersonation
-Example Summary,T1001 Data Obfuscation -> T1001.002 Data Obfuscation: Steganography
-Example Summary,T1074 Data Staged -> T1074.001 Data Staged: Local Data Staging
-Example Summary,T1074 Data Staged -> T1074.002 Data Staged: Remote Data Staging
-Example Summary,T1602 Data from Configuration Repository -> T1602.002 Data from Configuration Repository: Network Device Configuration Dump
-Example Summary,T1602 Data from Configuration Repository -> T1602.001 Data from Configuration Repository: SNMP (MIB Dump)
-Example Summary,T1213 Data from Information Repositories -> T1213.003 Data from Information Repositories: Code Repositories
-Example Summary,T1213 Data from Information Repositories -> T1213.001 Data from Information Repositories: Confluence
-Example Summary,T1213 Data from Information Repositories -> T1213.004 Data from Information Repositories: Customer Relationship Management Software
-Example Summary,T1213 Data from Information Repositories -> T1213.006 Data from Information Repositories: Databases
-Example Summary,T1213 Data from Information Repositories -> T1213.005 Data from Information Repositories: Messaging Applications
-Example Summary,T1213 Data from Information Repositories -> T1213.002 Data from Information Repositories: Sharepoint
-Example Summary,T1491 Defacement -> T1491.002 Defacement: External Defacement
-Example Summary,T1491 Defacement -> T1491.001 Defacement: Internal Defacement
-Example Summary,T1587 Develop Capabilities -> T1587.002 Develop Capabilities: Code Signing Certificates
-Example Summary,T1587 Develop Capabilities -> T1587.003 Develop Capabilities: Digital Certificates
-Example Summary,T1587 Develop Capabilities -> T1587.004 Develop Capabilities: Exploits
-Example Summary,T1587 Develop Capabilities -> T1587.001 Develop Capabilities: Malware
-Example Summary,T1561 Disk Wipe -> T1561.001 Disk Wipe: Disk Content Wipe
-Example Summary,T1561 Disk Wipe -> T1561.002 Disk Wipe: Disk Structure Wipe
-Example Summary,T1484 Domain or Tenant Policy Modification -> T1484.001 Domain or Tenant Policy Modification: Group Policy Modification
-Example Summary,T1484 Domain or Tenant Policy Modification -> T1484.002 Domain or Tenant Policy Modification: Trust Modification
-Example Summary,T1568 Dynamic Resolution -> T1568.003 Dynamic Resolution: DNS Calculation
-Example Summary,T1568 Dynamic Resolution -> T1568.002 Dynamic Resolution: Domain Generation Algorithms
-Example Summary,T1568 Dynamic Resolution -> T1568.001 Dynamic Resolution: Fast Flux DNS
-Example Summary,T1114 Email Collection -> T1114.003 Email Collection: Email Forwarding Rule
-Example Summary,T1114 Email Collection -> T1114.001 Email Collection: Local Email Collection
-Example Summary,T1114 Email Collection -> T1114.002 Email Collection: Remote Email Collection
-Example Summary,T1573 Encrypted Channel -> T1573.002 Encrypted Channel: Asymmetric Cryptography
-Example Summary,T1573 Encrypted Channel -> T1573.001 Encrypted Channel: Symmetric Cryptography
-Example Summary,T1499 Endpoint Denial of Service -> T1499.003 Endpoint Denial of Service: Application Exhaustion Flood
-Example Summary,T1499 Endpoint Denial of Service -> T1499.004 Endpoint Denial of Service: Application or System Exploitation
-Example Summary,T1499 Endpoint Denial of Service -> T1499.001 Endpoint Denial of Service: OS Exhaustion Flood
-Example Summary,T1499 Endpoint Denial of Service -> T1499.002 Endpoint Denial of Service: Service Exhaustion Flood
-Example Summary,T1585 Establish Accounts -> T1585.003 Establish Accounts: Cloud Accounts
-Example Summary,T1585 Establish Accounts -> T1585.002 Establish Accounts: Email Accounts
-Example Summary,T1585 Establish Accounts -> T1585.001 Establish Accounts: Social Media Accounts
-Example Summary,T1546 Event Triggered Execution -> T1546.008 Event Triggered Execution: Accessibility Features
-Example Summary,T1546 Event Triggered Execution -> T1546.009 Event Triggered Execution: AppCert DLLs
-Example Summary,T1546 Event Triggered Execution -> T1546.010 Event Triggered Execution: AppInit DLLs
-Example Summary,T1546 Event Triggered Execution -> T1546.011 Event Triggered Execution: Application Shimming
-Example Summary,T1546 Event Triggered Execution -> T1546.001 Event Triggered Execution: Change Default File Association
-Example Summary,T1546 Event Triggered Execution -> T1546.015 Event Triggered Execution: Component Object Model Hijacking
-Example Summary,T1546 Event Triggered Execution -> T1546.014 Event Triggered Execution: Emond
-Example Summary,T1546 Event Triggered Execution -> T1546.012 Event Triggered Execution: Image File Execution Options Injection
-Example Summary,T1546 Event Triggered Execution -> T1546.016 Event Triggered Execution: Installer Packages
-Example Summary,T1546 Event Triggered Execution -> T1546.006 Event Triggered Execution: LC_LOAD_DYLIB Addition
-Example Summary,T1546 Event Triggered Execution -> T1546.007 Event Triggered Execution: Netsh Helper DLL
-Example Summary,T1546 Event Triggered Execution -> T1546.013 Event Triggered Execution: PowerShell Profile
-Example Summary,T1546 Event Triggered Execution -> T1546.018 Event Triggered Execution: Python Startup Hooks
-Example Summary,T1546 Event Triggered Execution -> T1546.002 Event Triggered Execution: Screensaver
-Example Summary,T1546 Event Triggered Execution -> T1546.005 Event Triggered Execution: Trap
-Example Summary,T1546 Event Triggered Execution -> T1546.017 Event Triggered Execution: Udev Rules
-Example Summary,T1546 Event Triggered Execution -> T1546.004 Event Triggered Execution: Unix Shell Configuration Modification
-Example Summary,T1546 Event Triggered Execution -> T1546.003 Event Triggered Execution: Windows Management Instrumentation Event Subscription
-Example Summary,T1480 Execution Guardrails -> T1480.001 Execution Guardrails: Environmental Keying
-Example Summary,T1480 Execution Guardrails -> T1480.002 Execution Guardrails: Mutual Exclusion
-Example Summary,T1048 Exfiltration Over Alternative Protocol -> T1048.002 Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
-Example Summary,T1048 Exfiltration Over Alternative Protocol -> T1048.001 Exfiltration Over Alternative Protocol: Exfiltration Over Symmetric Encrypted Non-C2 Protocol
-Example Summary,T1048 Exfiltration Over Alternative Protocol -> T1048.003 Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol
-Example Summary,T1011 Exfiltration Over Other Network Medium -> T1011.001 Exfiltration Over Other Network Medium: Exfiltration Over Bluetooth
-Example Summary,T1052 Exfiltration Over Physical Medium -> T1052.001 Exfiltration Over Physical Medium: Exfiltration over USB
-Example Summary,T1567 Exfiltration Over Web Service -> T1567.004 Exfiltration Over Web Service: Exfiltration Over Webhook
-Example Summary,T1567 Exfiltration Over Web Service -> T1567.002 Exfiltration Over Web Service: Exfiltration to Cloud Storage
-Example Summary,T1567 Exfiltration Over Web Service -> T1567.001 Exfiltration Over Web Service: Exfiltration to Code Repository
-Example Summary,T1567 Exfiltration Over Web Service -> T1567.003 Exfiltration Over Web Service: Exfiltration to Text Storage Sites
-Example Summary,T1222 File and Directory Permissions Modification -> T1222.002 File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification
-Example Summary,T1222 File and Directory Permissions Modification -> T1222.001 File and Directory Permissions Modification: Windows File and Directory Permissions Modification
-Example Summary,T1606 Forge Web Credentials -> T1606.002 Forge Web Credentials: SAML Tokens
-Example Summary,T1606 Forge Web Credentials -> T1606.001 Forge Web Credentials: Web Cookies
-Example Summary,T1592 Gather Victim Host Information -> T1592.004 Gather Victim Host Information: Client Configurations
-Example Summary,T1592 Gather Victim Host Information -> T1592.003 Gather Victim Host Information: Firmware
-Example Summary,T1592 Gather Victim Host Information -> T1592.001 Gather Victim Host Information: Hardware
-Example Summary,T1592 Gather Victim Host Information -> T1592.002 Gather Victim Host Information: Software
-Example Summary,T1589 Gather Victim Identity Information -> T1589.001 Gather Victim Identity Information: Credentials
-Example Summary,T1589 Gather Victim Identity Information -> T1589.002 Gather Victim Identity Information: Email Addresses
-Example Summary,T1589 Gather Victim Identity Information -> T1589.003 Gather Victim Identity Information: Employee Names
-Example Summary,T1590 Gather Victim Network Information -> T1590.002 Gather Victim Network Information: DNS
-Example Summary,T1590 Gather Victim Network Information -> T1590.001 Gather Victim Network Information: Domain Properties
-Example Summary,T1590 Gather Victim Network Information -> T1590.005 Gather Victim Network Information: IP Addresses
-Example Summary,T1590 Gather Victim Network Information -> T1590.006 Gather Victim Network Information: Network Security Appliances
-Example Summary,T1590 Gather Victim Network Information -> T1590.004 Gather Victim Network Information: Network Topology
-Example Summary,T1590 Gather Victim Network Information -> T1590.003 Gather Victim Network Information: Network Trust Dependencies
-Example Summary,T1591 Gather Victim Org Information -> T1591.002 Gather Victim Org Information: Business Relationships
-Example Summary,T1591 Gather Victim Org Information -> T1591.001 Gather Victim Org Information: Determine Physical Locations
-Example Summary,T1591 Gather Victim Org Information -> T1591.003 Gather Victim Org Information: Identify Business Tempo
-Example Summary,T1591 Gather Victim Org Information -> T1591.004 Gather Victim Org Information: Identify Roles
-Example Summary,T1564 Hide Artifacts -> T1564.013 Hide Artifacts: Bind Mounts
-Example Summary,T1564 Hide Artifacts -> T1564.008 Hide Artifacts: Email Hiding Rules
-Example Summary,T1564 Hide Artifacts -> T1564.014 Hide Artifacts: Extended Attributes
-Example Summary,T1564 Hide Artifacts -> T1564.012 Hide Artifacts: File/Path Exclusions
-Example Summary,T1564 Hide Artifacts -> T1564.005 Hide Artifacts: Hidden File System
-Example Summary,T1564 Hide Artifacts -> T1564.001 Hide Artifacts: Hidden Files and Directories
-Example Summary,T1564 Hide Artifacts -> T1564.002 Hide Artifacts: Hidden Users
-Example Summary,T1564 Hide Artifacts -> T1564.003 Hide Artifacts: Hidden Window
-Example Summary,T1564 Hide Artifacts -> T1564.011 Hide Artifacts: Ignore Process Interrupts
-Example Summary,T1564 Hide Artifacts -> T1564.004 Hide Artifacts: NTFS File Attributes
-Example Summary,T1564 Hide Artifacts -> T1564.010 Hide Artifacts: Process Argument Spoofing
-Example Summary,T1564 Hide Artifacts -> T1564.009 Hide Artifacts: Resource Forking
-Example Summary,T1564 Hide Artifacts -> T1564.006 Hide Artifacts: Run Virtual Instance
-Example Summary,T1564 Hide Artifacts -> T1564.007 Hide Artifacts: VBA Stomping
-Example Summary,T1574 Hijack Execution Flow -> T1574.014 Hijack Execution Flow: AppDomainManager
-Example Summary,T1574 Hijack Execution Flow -> T1574.012 Hijack Execution Flow: COR_PROFILER
-Example Summary,T1574 Hijack Execution Flow -> T1574.001 Hijack Execution Flow: DLL
-Example Summary,T1574 Hijack Execution Flow -> T1574.004 Hijack Execution Flow: Dylib Hijacking
-Example Summary,T1574 Hijack Execution Flow -> T1574.006 Hijack Execution Flow: Dynamic Linker Hijacking
-Example Summary,T1574 Hijack Execution Flow -> T1574.005 Hijack Execution Flow: Executable Installer File Permissions Weakness
-Example Summary,T1574 Hijack Execution Flow -> T1574.013 Hijack Execution Flow: KernelCallbackTable
-Example Summary,T1574 Hijack Execution Flow -> T1574.007 Hijack Execution Flow: Path Interception by PATH Environment Variable
-Example Summary,T1574 Hijack Execution Flow -> T1574.008 Hijack Execution Flow: Path Interception by Search Order Hijacking
-Example Summary,T1574 Hijack Execution Flow -> T1574.009 Hijack Execution Flow: Path Interception by Unquoted Path
-Example Summary,T1574 Hijack Execution Flow -> T1574.010 Hijack Execution Flow: Services File Permissions Weakness
-Example Summary,T1574 Hijack Execution Flow -> T1574.011 Hijack Execution Flow: Services Registry Permissions Weakness
-Example Summary,T1562 Impair Defenses -> T1562.002 Impair Defenses: Disable Windows Event Logging
-Example Summary,T1562 Impair Defenses -> T1562.007 Impair Defenses: Disable or Modify Cloud Firewall
-Example Summary,T1562 Impair Defenses -> T1562.008 Impair Defenses: Disable or Modify Cloud Logs
-Example Summary,T1562 Impair Defenses -> T1562.012 Impair Defenses: Disable or Modify Linux Audit System
-Example Summary,T1562 Impair Defenses -> T1562.013 Impair Defenses: Disable or Modify Network Device Firewall
-Example Summary,T1562 Impair Defenses -> T1562.004 Impair Defenses: Disable or Modify System Firewall
-Example Summary,T1562 Impair Defenses -> T1562.001 Impair Defenses: Disable or Modify Tools
-Example Summary,T1562 Impair Defenses -> T1562.010 Impair Defenses: Downgrade Attack
-Example Summary,T1562 Impair Defenses -> T1562.003 Impair Defenses: Impair Command History Logging
-Example Summary,T1562 Impair Defenses -> T1562.006 Impair Defenses: Indicator Blocking
-Example Summary,T1562 Impair Defenses -> T1562.009 Impair Defenses: Safe Mode Boot
-Example Summary,T1562 Impair Defenses -> T1562.011 Impair Defenses: Spoof Security Alerting
-Example Summary,T1070 Indicator Removal -> T1070.003 Indicator Removal: Clear Command History
-Example Summary,T1070 Indicator Removal -> T1070.002 Indicator Removal: Clear Linux or Mac System Logs
-Example Summary,T1070 Indicator Removal -> T1070.008 Indicator Removal: Clear Mailbox Data
-Example Summary,T1070 Indicator Removal -> T1070.007 Indicator Removal: Clear Network Connection History and Configurations
-Example Summary,T1070 Indicator Removal -> T1070.009 Indicator Removal: Clear Persistence
-Example Summary,T1070 Indicator Removal -> T1070.001 Indicator Removal: Clear Windows Event Logs
-Example Summary,T1070 Indicator Removal -> T1070.004 Indicator Removal: File Deletion
-Example Summary,T1070 Indicator Removal -> T1070.005 Indicator Removal: Network Share Connection Removal
-Example Summary,T1070 Indicator Removal -> T1070.010 Indicator Removal: Relocate Malware
-Example Summary,T1070 Indicator Removal -> T1070.006 Indicator Removal: Timestomp
-Example Summary,T1056 Input Capture -> T1056.004 Input Capture: Credential API Hooking
-Example Summary,T1056 Input Capture -> T1056.002 Input Capture: GUI Input Capture
-Example Summary,T1056 Input Capture -> T1056.001 Input Capture: Keylogging
-Example Summary,T1056 Input Capture -> T1056.003 Input Capture: Web Portal Capture
-Example Summary,T1559 Inter-Process Communication -> T1559.001 Inter-Process Communication: Component Object Model
-Example Summary,T1559 Inter-Process Communication -> T1559.002 Inter-Process Communication: Dynamic Data Exchange
-Example Summary,T1559 Inter-Process Communication -> T1559.003 Inter-Process Communication: XPC Services
-Example Summary,T1036 Masquerading -> T1036.009 Masquerading: Break Process Trees
-Example Summary,T1036 Masquerading -> T1036.012 Masquerading: Browser Fingerprint
-Example Summary,T1036 Masquerading -> T1036.007 Masquerading: Double File Extension
-Example Summary,T1036 Masquerading -> T1036.001 Masquerading: Invalid Code Signature
-Example Summary,T1036 Masquerading -> T1036.010 Masquerading: Masquerade Account Name
-Example Summary,T1036 Masquerading -> T1036.008 Masquerading: Masquerade File Type
-Example Summary,T1036 Masquerading -> T1036.004 Masquerading: Masquerade Task or Service
-Example Summary,T1036 Masquerading -> T1036.005 Masquerading: Match Legitimate Resource Name or Location
-Example Summary,T1036 Masquerading -> T1036.011 Masquerading: Overwrite Process Arguments
-Example Summary,T1036 Masquerading -> T1036.003 Masquerading: Rename Legitimate Utilities
-Example Summary,T1036 Masquerading -> T1036.002 Masquerading: Right-to-Left Override
-Example Summary,T1036 Masquerading -> T1036.006 Masquerading: Space after Filename
-Example Summary,T1556 Modify Authentication Process -> T1556.009 Modify Authentication Process: Conditional Access Policies
-Example Summary,T1556 Modify Authentication Process -> T1556.001 Modify Authentication Process: Domain Controller Authentication
-Example Summary,T1556 Modify Authentication Process -> T1556.007 Modify Authentication Process: Hybrid Identity
-Example Summary,T1556 Modify Authentication Process -> T1556.006 Modify Authentication Process: Multi-Factor Authentication
-Example Summary,T1556 Modify Authentication Process -> T1556.004 Modify Authentication Process: Network Device Authentication
-Example Summary,T1556 Modify Authentication Process -> T1556.008 Modify Authentication Process: Network Provider DLL
-Example Summary,T1556 Modify Authentication Process -> T1556.002 Modify Authentication Process: Password Filter DLL
-Example Summary,T1556 Modify Authentication Process -> T1556.003 Modify Authentication Process: Pluggable Authentication Modules
-Example Summary,T1556 Modify Authentication Process -> T1556.005 Modify Authentication Process: Reversible Encryption
-Example Summary,T1578 Modify Cloud Compute Infrastructure -> T1578.002 Modify Cloud Compute Infrastructure: Create Cloud Instance
-Example Summary,T1578 Modify Cloud Compute Infrastructure -> T1578.001 Modify Cloud Compute Infrastructure: Create Snapshot
-Example Summary,T1578 Modify Cloud Compute Infrastructure -> T1578.003 Modify Cloud Compute Infrastructure: Delete Cloud Instance
-Example Summary,T1578 Modify Cloud Compute Infrastructure -> T1578.005 Modify Cloud Compute Infrastructure: Modify Cloud Compute Configurations
-Example Summary,T1578 Modify Cloud Compute Infrastructure -> T1578.004 Modify Cloud Compute Infrastructure: Revert Cloud Instance
-Example Summary,T1601 Modify System Image -> T1601.002 Modify System Image: Downgrade System Image
-Example Summary,T1601 Modify System Image -> T1601.001 Modify System Image: Patch System Image
-Example Summary,T1599 Network Boundary Bridging -> T1599.001 Network Boundary Bridging: Network Address Translation Traversal
-Example Summary,T1498 Network Denial of Service -> T1498.001 Network Denial of Service: Direct Network Flood
-Example Summary,T1498 Network Denial of Service -> T1498.002 Network Denial of Service: Reflection Amplification
-Example Summary,T1003 OS Credential Dumping -> T1003.008 OS Credential Dumping: /etc/passwd and /etc/shadow
-Example Summary,T1003 OS Credential Dumping -> T1003.005 OS Credential Dumping: Cached Domain Credentials
-Example Summary,T1003 OS Credential Dumping -> T1003.006 OS Credential Dumping: DCSync
-Example Summary,T1003 OS Credential Dumping -> T1003.004 OS Credential Dumping: LSA Secrets
-Example Summary,T1003 OS Credential Dumping -> T1003.001 OS Credential Dumping: LSASS Memory
-Example Summary,T1003 OS Credential Dumping -> T1003.003 OS Credential Dumping: NTDS
-Example Summary,T1003 OS Credential Dumping -> T1003.007 OS Credential Dumping: Proc Filesystem
-Example Summary,T1003 OS Credential Dumping -> T1003.002 OS Credential Dumping: Security Account Manager
-Example Summary,T1027 Obfuscated Files or Information -> T1027.001 Obfuscated Files or Information: Binary Padding
-Example Summary,T1027 Obfuscated Files or Information -> T1027.010 Obfuscated Files or Information: Command Obfuscation
-Example Summary,T1027 Obfuscated Files or Information -> T1027.004 Obfuscated Files or Information: Compile After Delivery
-Example Summary,T1027 Obfuscated Files or Information -> T1027.015 Obfuscated Files or Information: Compression
-Example Summary,T1027 Obfuscated Files or Information -> T1027.007 Obfuscated Files or Information: Dynamic API Resolution
-Example Summary,T1027 Obfuscated Files or Information -> T1027.009 Obfuscated Files or Information: Embedded Payloads
-Example Summary,T1027 Obfuscated Files or Information -> T1027.013 Obfuscated Files or Information: Encrypted/Encoded File
-Example Summary,T1027 Obfuscated Files or Information -> T1027.011 Obfuscated Files or Information: Fileless Storage
-Example Summary,T1027 Obfuscated Files or Information -> T1027.006 Obfuscated Files or Information: HTML Smuggling
-Example Summary,T1027 Obfuscated Files or Information -> T1027.005 Obfuscated Files or Information: Indicator Removal from Tools
-Example Summary,T1027 Obfuscated Files or Information -> T1027.016 Obfuscated Files or Information: Junk Code Insertion
-Example Summary,T1027 Obfuscated Files or Information -> T1027.012 Obfuscated Files or Information: LNK Icon Smuggling
-Example Summary,T1027 Obfuscated Files or Information -> T1027.014 Obfuscated Files or Information: Polymorphic Code
-Example Summary,T1027 Obfuscated Files or Information -> T1027.017 Obfuscated Files or Information: SVG Smuggling
-Example Summary,T1027 Obfuscated Files or Information -> T1027.002 Obfuscated Files or Information: Software Packing
-Example Summary,T1027 Obfuscated Files or Information -> T1027.003 Obfuscated Files or Information: Steganography
-Example Summary,T1027 Obfuscated Files or Information -> T1027.008 Obfuscated Files or Information: Stripped Payloads
-Example Summary,T1588 Obtain Capabilities -> T1588.007 Obtain Capabilities: Artificial Intelligence
-Example Summary,T1588 Obtain Capabilities -> T1588.003 Obtain Capabilities: Code Signing Certificates
-Example Summary,T1588 Obtain Capabilities -> T1588.004 Obtain Capabilities: Digital Certificates
-Example Summary,T1588 Obtain Capabilities -> T1588.005 Obtain Capabilities: Exploits
-Example Summary,T1588 Obtain Capabilities -> T1588.001 Obtain Capabilities: Malware
-Example Summary,T1588 Obtain Capabilities -> T1588.002 Obtain Capabilities: Tool
-Example Summary,T1588 Obtain Capabilities -> T1588.006 Obtain Capabilities: Vulnerabilities
-Example Summary,T1137 Office Application Startup -> T1137.006 Office Application Startup: Add-ins
-Example Summary,T1137 Office Application Startup -> T1137.001 Office Application Startup: Office Template Macros
-Example Summary,T1137 Office Application Startup -> T1137.002 Office Application Startup: Office Test
-Example Summary,T1137 Office Application Startup -> T1137.003 Office Application Startup: Outlook Forms
-Example Summary,T1137 Office Application Startup -> T1137.004 Office Application Startup: Outlook Home Page
-Example Summary,T1137 Office Application Startup -> T1137.005 Office Application Startup: Outlook Rules
-Example Summary,T1069 Permission Groups Discovery -> T1069.003 Permission Groups Discovery: Cloud Groups
-Example Summary,T1069 Permission Groups Discovery -> T1069.002 Permission Groups Discovery: Domain Groups
-Example Summary,T1069 Permission Groups Discovery -> T1069.001 Permission Groups Discovery: Local Groups
-Example Summary,T1598 Phishing for Information -> T1598.002 Phishing for Information: Spearphishing Attachment
-Example Summary,T1598 Phishing for Information -> T1598.003 Phishing for Information: Spearphishing Link
-Example Summary,T1598 Phishing for Information -> T1598.001 Phishing for Information: Spearphishing Service
-Example Summary,T1598 Phishing for Information -> T1598.004 Phishing for Information: Spearphishing Voice
-Example Summary,T1566 Phishing -> T1566.001 Phishing: Spearphishing Attachment
-Example Summary,T1566 Phishing -> T1566.002 Phishing: Spearphishing Link
-Example Summary,T1566 Phishing -> T1566.004 Phishing: Spearphishing Voice
-Example Summary,T1566 Phishing -> T1566.003 Phishing: Spearphishing via Service
-Example Summary,T1542 Pre-OS Boot -> T1542.003 Pre-OS Boot: Bootkit
-Example Summary,T1542 Pre-OS Boot -> T1542.002 Pre-OS Boot: Component Firmware
-Example Summary,T1542 Pre-OS Boot -> T1542.004 Pre-OS Boot: ROMMONkit
-Example Summary,T1542 Pre-OS Boot -> T1542.001 Pre-OS Boot: System Firmware
-Example Summary,T1542 Pre-OS Boot -> T1542.005 Pre-OS Boot: TFTP Boot
-Example Summary,T1055 Process Injection -> T1055.004 Process Injection: Asynchronous Procedure Call
-Example Summary,T1055 Process Injection -> T1055.001 Process Injection: Dynamic-link Library Injection
-Example Summary,T1055 Process Injection -> T1055.011 Process Injection: Extra Window Memory Injection
-Example Summary,T1055 Process Injection -> T1055.015 Process Injection: ListPlanting
-Example Summary,T1055 Process Injection -> T1055.002 Process Injection: Portable Executable Injection
-Example Summary,T1055 Process Injection -> T1055.009 Process Injection: Proc Memory
-Example Summary,T1055 Process Injection -> T1055.013 Process Injection: Process Doppelgänging
-Example Summary,T1055 Process Injection -> T1055.012 Process Injection: Process Hollowing
-Example Summary,T1055 Process Injection -> T1055.008 Process Injection: Ptrace System Calls
-Example Summary,T1055 Process Injection -> T1055.003 Process Injection: Thread Execution Hijacking
-Example Summary,T1055 Process Injection -> T1055.005 Process Injection: Thread Local Storage
-Example Summary,T1055 Process Injection -> T1055.014 Process Injection: VDSO Hijacking
-Example Summary,T1090 Proxy -> T1090.004 Proxy: Domain Fronting
-Example Summary,T1090 Proxy -> T1090.002 Proxy: External Proxy
-Example Summary,T1090 Proxy -> T1090.001 Proxy: Internal Proxy
-Example Summary,T1090 Proxy -> T1090.003 Proxy: Multi-hop Proxy
-Example Summary,T1219 Remote Access Tools -> T1219.001 Remote Access Tools: IDE Tunneling
-Example Summary,T1219 Remote Access Tools -> T1219.003 Remote Access Tools: Remote Access Hardware
-Example Summary,T1219 Remote Access Tools -> T1219.002 Remote Access Tools: Remote Desktop Software
-Example Summary,T1563 Remote Service Session Hijacking -> T1563.002 Remote Service Session Hijacking: RDP Hijacking
-Example Summary,T1563 Remote Service Session Hijacking -> T1563.001 Remote Service Session Hijacking: SSH Hijacking
-Example Summary,T1021 Remote Services -> T1021.007 Remote Services: Cloud Services
-Example Summary,T1021 Remote Services -> T1021.008 Remote Services: Direct Cloud VM Connections
-Example Summary,T1021 Remote Services -> T1021.003 Remote Services: Distributed Component Object Model
-Example Summary,T1021 Remote Services -> T1021.001 Remote Services: Remote Desktop Protocol
-Example Summary,T1021 Remote Services -> T1021.002 Remote Services: SMB/Windows Admin Shares
-Example Summary,T1021 Remote Services -> T1021.004 Remote Services: SSH
-Example Summary,T1021 Remote Services -> T1021.005 Remote Services: VNC
-Example Summary,T1021 Remote Services -> T1021.006 Remote Services: Windows Remote Management
-Example Summary,T1496 Resource Hijacking -> T1496.002 Resource Hijacking: Bandwidth Hijacking
-Example Summary,T1496 Resource Hijacking -> T1496.004 Resource Hijacking: Cloud Service Hijacking
-Example Summary,T1496 Resource Hijacking -> T1496.001 Resource Hijacking: Compute Hijacking
-Example Summary,T1496 Resource Hijacking -> T1496.003 Resource Hijacking: SMS Pumping
-Example Summary,T1053 Scheduled Task/Job -> T1053.002 Scheduled Task/Job: At
-Example Summary,T1053 Scheduled Task/Job -> T1053.007 Scheduled Task/Job: Container Orchestration Job
-Example Summary,T1053 Scheduled Task/Job -> T1053.003 Scheduled Task/Job: Cron
-Example Summary,T1053 Scheduled Task/Job -> T1053.005 Scheduled Task/Job: Scheduled Task
-Example Summary,T1053 Scheduled Task/Job -> T1053.006 Scheduled Task/Job: Systemd Timers
-Example Summary,T1597 Search Closed Sources -> T1597.002 Search Closed Sources: Purchase Technical Data
-Example Summary,T1597 Search Closed Sources -> T1597.001 Search Closed Sources: Threat Intel Vendors
-Example Summary,T1596 Search Open Technical Databases -> T1596.004 Search Open Technical Databases: CDNs
-Example Summary,T1596 Search Open Technical Databases -> T1596.001 Search Open Technical Databases: DNS/Passive DNS
-Example Summary,T1596 Search Open Technical Databases -> T1596.003 Search Open Technical Databases: Digital Certificates
-Example Summary,T1596 Search Open Technical Databases -> T1596.005 Search Open Technical Databases: Scan Databases
-Example Summary,T1596 Search Open Technical Databases -> T1596.002 Search Open Technical Databases: WHOIS
-Example Summary,T1593 Search Open Websites/Domains -> T1593.003 Search Open Websites/Domains: Code Repositories
-Example Summary,T1593 Search Open Websites/Domains -> T1593.002 Search Open Websites/Domains: Search Engines
-Example Summary,T1593 Search Open Websites/Domains -> T1593.001 Search Open Websites/Domains: Social Media
-Example Summary,T1505 Server Software Component -> T1505.004 Server Software Component: IIS Components
-Example Summary,T1505 Server Software Component -> T1505.001 Server Software Component: SQL Stored Procedures
-Example Summary,T1505 Server Software Component -> T1505.005 Server Software Component: Terminal Services DLL
-Example Summary,T1505 Server Software Component -> T1505.002 Server Software Component: Transport Agent
-Example Summary,T1505 Server Software Component -> T1505.003 Server Software Component: Web Shell
-Example Summary,T1505 Server Software Component -> T1505.006 Server Software Component: vSphere Installation Bundles
-Example Summary,T1518 Software Discovery -> T1518.002 Software Discovery: Backup Software Discovery
-Example Summary,T1518 Software Discovery -> T1518.001 Software Discovery: Security Software Discovery
-Example Summary,T1176 Software Extensions -> T1176.001 Software Extensions: Browser Extensions
-Example Summary,T1176 Software Extensions -> T1176.002 Software Extensions: IDE Extensions
-Example Summary,T1608 Stage Capabilities -> T1608.004 Stage Capabilities: Drive-by Target
-Example Summary,T1608 Stage Capabilities -> T1608.003 Stage Capabilities: Install Digital Certificate
-Example Summary,T1608 Stage Capabilities -> T1608.005 Stage Capabilities: Link Target
-Example Summary,T1608 Stage Capabilities -> T1608.006 Stage Capabilities: SEO Poisoning
-Example Summary,T1608 Stage Capabilities -> T1608.001 Stage Capabilities: Upload Malware
-Example Summary,T1608 Stage Capabilities -> T1608.002 Stage Capabilities: Upload Tool
-Example Summary,T1558 Steal or Forge Kerberos Tickets -> T1558.004 Steal or Forge Kerberos Tickets: AS-REP Roasting
-Example Summary,T1558 Steal or Forge Kerberos Tickets -> T1558.005 Steal or Forge Kerberos Tickets: Ccache Files
-Example Summary,T1558 Steal or Forge Kerberos Tickets -> T1558.001 Steal or Forge Kerberos Tickets: Golden Ticket
-Example Summary,T1558 Steal or Forge Kerberos Tickets -> T1558.003 Steal or Forge Kerberos Tickets: Kerberoasting
-Example Summary,T1558 Steal or Forge Kerberos Tickets -> T1558.002 Steal or Forge Kerberos Tickets: Silver Ticket
-Example Summary,T1553 Subvert Trust Controls -> T1553.002 Subvert Trust Controls: Code Signing
-Example Summary,T1553 Subvert Trust Controls -> T1553.006 Subvert Trust Controls: Code Signing Policy Modification
-Example Summary,T1553 Subvert Trust Controls -> T1553.001 Subvert Trust Controls: Gatekeeper Bypass
-Example Summary,T1553 Subvert Trust Controls -> T1553.004 Subvert Trust Controls: Install Root Certificate
-Example Summary,T1553 Subvert Trust Controls -> T1553.005 Subvert Trust Controls: Mark-of-the-Web Bypass
-Example Summary,T1553 Subvert Trust Controls -> T1553.003 Subvert Trust Controls: SIP and Trust Provider Hijacking
-Example Summary,T1195 Supply Chain Compromise -> T1195.003 Supply Chain Compromise: Compromise Hardware Supply Chain
-Example Summary,T1195 Supply Chain Compromise -> T1195.001 Supply Chain Compromise: Compromise Software Dependencies and Development Tools
-Example Summary,T1195 Supply Chain Compromise -> T1195.002 Supply Chain Compromise: Compromise Software Supply Chain
-Example Summary,T1218 System Binary Proxy Execution -> T1218.003 System Binary Proxy Execution: CMSTP
-Example Summary,T1218 System Binary Proxy Execution -> T1218.001 System Binary Proxy Execution: Compiled HTML File
-Example Summary,T1218 System Binary Proxy Execution -> T1218.002 System Binary Proxy Execution: Control Panel
-Example Summary,T1218 System Binary Proxy Execution -> T1218.015 System Binary Proxy Execution: Electron Applications
-Example Summary,T1218 System Binary Proxy Execution -> T1218.004 System Binary Proxy Execution: InstallUtil
-Example Summary,T1218 System Binary Proxy Execution -> T1218.014 System Binary Proxy Execution: MMC
-Example Summary,T1218 System Binary Proxy Execution -> T1218.013 System Binary Proxy Execution: Mavinject
-Example Summary,T1218 System Binary Proxy Execution -> T1218.005 System Binary Proxy Execution: Mshta
-Example Summary,T1218 System Binary Proxy Execution -> T1218.007 System Binary Proxy Execution: Msiexec
-Example Summary,T1218 System Binary Proxy Execution -> T1218.008 System Binary Proxy Execution: Odbcconf
-Example Summary,T1218 System Binary Proxy Execution -> T1218.009 System Binary Proxy Execution: Regsvcs/Regasm
-Example Summary,T1218 System Binary Proxy Execution -> T1218.010 System Binary Proxy Execution: Regsvr32
-Example Summary,T1218 System Binary Proxy Execution -> T1218.011 System Binary Proxy Execution: Rundll32
-Example Summary,T1218 System Binary Proxy Execution -> T1218.012 System Binary Proxy Execution: Verclsid
-Example Summary,T1614 System Location Discovery -> T1614.001 System Location Discovery: System Language Discovery
-Example Summary,T1016 System Network Configuration Discovery -> T1016.001 System Network Configuration Discovery: Internet Connection Discovery
-Example Summary,T1016 System Network Configuration Discovery -> T1016.002 System Network Configuration Discovery: Wi-Fi Discovery
-Example Summary,T1216 System Script Proxy Execution -> T1216.001 System Script Proxy Execution: PubPrn
-Example Summary,T1216 System Script Proxy Execution -> T1216.002 System Script Proxy Execution: SyncAppvPublishingServer
-Example Summary,T1569 System Services -> T1569.001 System Services: Launchctl
-Example Summary,T1569 System Services -> T1569.002 System Services: Service Execution
-Example Summary,T1569 System Services -> T1569.003 System Services: Systemctl
-Example Summary,T1205 Traffic Signaling -> T1205.001 Traffic Signaling: Port Knocking
-Example Summary,T1205 Traffic Signaling -> T1205.002 Traffic Signaling: Socket Filters
-Example Summary,T1127 Trusted Developer Utilities Proxy Execution -> T1127.002 Trusted Developer Utilities Proxy Execution: ClickOnce
-Example Summary,T1127 Trusted Developer Utilities Proxy Execution -> T1127.003 Trusted Developer Utilities Proxy Execution: JamPlus
-Example Summary,T1127 Trusted Developer Utilities Proxy Execution -> T1127.001 Trusted Developer Utilities Proxy Execution: MSBuild
-Example Summary,T1552 Unsecured Credentials -> T1552.008 Unsecured Credentials: Chat Messages
-Example Summary,T1552 Unsecured Credentials -> T1552.005 Unsecured Credentials: Cloud Instance Metadata API
-Example Summary,T1552 Unsecured Credentials -> T1552.007 Unsecured Credentials: Container API
-Example Summary,T1552 Unsecured Credentials -> T1552.001 Unsecured Credentials: Credentials In Files
-Example Summary,T1552 Unsecured Credentials -> T1552.002 Unsecured Credentials: Credentials in Registry
-Example Summary,T1552 Unsecured Credentials -> T1552.006 Unsecured Credentials: Group Policy Preferences
-Example Summary,T1552 Unsecured Credentials -> T1552.004 Unsecured Credentials: Private Keys
-Example Summary,T1552 Unsecured Credentials -> T1552.003 Unsecured Credentials: Shell History
-Example Summary,T1550 Use Alternate Authentication Material -> T1550.001 Use Alternate Authentication Material: Application Access Token
-Example Summary,T1550 Use Alternate Authentication Material -> T1550.002 Use Alternate Authentication Material: Pass the Hash
-Example Summary,T1550 Use Alternate Authentication Material -> T1550.003 Use Alternate Authentication Material: Pass the Ticket
-Example Summary,T1550 Use Alternate Authentication Material -> T1550.004 Use Alternate Authentication Material: Web Session Cookie
-Example Summary,T1204 User Execution -> T1204.004 User Execution: Malicious Copy and Paste
-Example Summary,T1204 User Execution -> T1204.002 User Execution: Malicious File
-Example Summary,T1204 User Execution -> T1204.003 User Execution: Malicious Image
-Example Summary,T1204 User Execution -> T1204.005 User Execution: Malicious Library
-Example Summary,T1204 User Execution -> T1204.001 User Execution: Malicious Link
-Example Summary,T1078 Valid Accounts -> T1078.004 Valid Accounts: Cloud Accounts
-Example Summary,T1078 Valid Accounts -> T1078.001 Valid Accounts: Default Accounts
-Example Summary,T1078 Valid Accounts -> T1078.002 Valid Accounts: Domain Accounts
-Example Summary,T1078 Valid Accounts -> T1078.003 Valid Accounts: Local Accounts
-Example Summary,T1497 Virtualization/Sandbox Evasion -> T1497.001 Virtualization/Sandbox Evasion: System Checks
-Example Summary,T1497 Virtualization/Sandbox Evasion -> T1497.003 Virtualization/Sandbox Evasion: Time Based Checks
-Example Summary,T1497 Virtualization/Sandbox Evasion -> T1497.002 Virtualization/Sandbox Evasion: User Activity Based Checks
-Example Summary,T1600 Weaken Encryption -> T1600.002 Weaken Encryption: Disable Crypto Hardware
-Example Summary,T1600 Weaken Encryption -> T1600.001 Weaken Encryption: Reduce Key Space
-Example Summary,T1102 Web Service -> T1102.002 Web Service: Bidirectional Communication
-Example Summary,T1102 Web Service -> T1102.001 Web Service: Dead Drop Resolver
-Example Summary,T1102 Web Service -> T1102.003 Web Service: One-Way Communication
+IssueKey,Summary,MITRE
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.002 Abuse Elevation Control Mechanism: Bypass User Account Control
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.004 Abuse Elevation Control Mechanism: Elevated Execution with Prompt
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.001 Abuse Elevation Control Mechanism: Setuid and Setgid
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.003 Abuse Elevation Control Mechanism: Sudo and Sudo Caching
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.006 Abuse Elevation Control Mechanism: TCC Manipulation
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.005 Abuse Elevation Control Mechanism: Temporary Elevated Cloud Access
+DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.002 Access Token Manipulation: Create Process with Token
+DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.003 Access Token Manipulation: Make and Impersonate Token
+DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.004 Access Token Manipulation: Parent PID Spoofing
+DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.005 Access Token Manipulation: SID-History Injection
+DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.001 Access Token Manipulation: Token Impersonation/Theft
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.004 Account Discovery: Cloud Account
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.002 Account Discovery: Domain Account
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.003 Account Discovery: Email Account
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.001 Account Discovery: Local Account
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.001 Account Manipulation: Additional Cloud Credentials
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.003 Account Manipulation: Additional Cloud Roles
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.006 Account Manipulation: Additional Container Cluster Roles
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.002 Account Manipulation: Additional Email Delegate Permissions
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.007 Account Manipulation: Additional Local or Domain Groups
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.005 Account Manipulation: Device Registration
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.004 Account Manipulation: SSH Authorized Keys
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.005 Acquire Infrastructure: Botnet
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.002 Acquire Infrastructure: DNS Server
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.001 Acquire Infrastructure: Domains
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.008 Acquire Infrastructure: Malvertising
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.004 Acquire Infrastructure: Server
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.007 Acquire Infrastructure: Serverless
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.003 Acquire Infrastructure: Virtual Private Server
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.006 Acquire Infrastructure: Web Services
+DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.001 Active Scanning: Scanning IP Blocks
+DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.002 Active Scanning: Vulnerability Scanning
+DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.003 Active Scanning: Wordlist Scanning
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.002 Adversary-in-the-Middle: ARP Cache Poisoning
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.003 Adversary-in-the-Middle: DHCP Spoofing
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.004 Adversary-in-the-Middle: Evil Twin
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.001 Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.004 Application Layer Protocol: DNS
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.002 Application Layer Protocol: File Transfer Protocols
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.003 Application Layer Protocol: Mail Protocols
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.005 Application Layer Protocol: Publish/Subscribe Protocols
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.001 Application Layer Protocol: Web Protocols
+DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.003 Archive Collected Data: Archive via Custom Method
+DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.002 Archive Collected Data: Archive via Library
+DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.001 Archive Collected Data: Archive via Utility
+DETE-1,CSV-IMPORT,T1020 Automated Exfiltration -> T1020.001 Automated Exfiltration: Traffic Duplication
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.014 Boot or Logon Autostart Execution: Active Setup
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.002 Boot or Logon Autostart Execution: Authentication Package
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.006 Boot or Logon Autostart Execution: Kernel Modules and Extensions
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.008 Boot or Logon Autostart Execution: LSASS Driver
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.015 Boot or Logon Autostart Execution: Login Items
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.010 Boot or Logon Autostart Execution: Port Monitors
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.012 Boot or Logon Autostart Execution: Print Processors
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.007 Boot or Logon Autostart Execution: Re-opened Applications
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.001 Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.005 Boot or Logon Autostart Execution: Security Support Provider
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.009 Boot or Logon Autostart Execution: Shortcut Modification
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.003 Boot or Logon Autostart Execution: Time Providers
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.004 Boot or Logon Autostart Execution: Winlogon Helper DLL
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.013 Boot or Logon Autostart Execution: XDG Autostart Entries
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.002 Boot or Logon Initialization Scripts: Login Hook
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.001 Boot or Logon Initialization Scripts: Logon Script (Windows)
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.003 Boot or Logon Initialization Scripts: Network Logon Script
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.004 Boot or Logon Initialization Scripts: RC Scripts
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.005 Boot or Logon Initialization Scripts: Startup Items
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.004 Brute Force: Credential Stuffing
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.002 Brute Force: Password Cracking
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.001 Brute Force: Password Guessing
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.003 Brute Force: Password Spraying
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.002 Command and Scripting Interpreter: AppleScript
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.010 Command and Scripting Interpreter: AutoHotKey & AutoIT
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.009 Command and Scripting Interpreter: Cloud API
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.013 Command and Scripting Interpreter: Container CLI/API
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.012 Command and Scripting Interpreter: Hypervisor CLI
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.007 Command and Scripting Interpreter: JavaScript
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.011 Command and Scripting Interpreter: Lua
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.008 Command and Scripting Interpreter: Network Device CLI
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.001 Command and Scripting Interpreter: PowerShell
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.006 Command and Scripting Interpreter: Python
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.004 Command and Scripting Interpreter: Unix Shell
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.005 Command and Scripting Interpreter: Visual Basic
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.003 Command and Scripting Interpreter: Windows Command Shell
+DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.003 Compromise Accounts: Cloud Accounts
+DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.002 Compromise Accounts: Email Accounts
+DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.001 Compromise Accounts: Social Media Accounts
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.005 Compromise Infrastructure: Botnet
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.002 Compromise Infrastructure: DNS Server
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.001 Compromise Infrastructure: Domains
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.008 Compromise Infrastructure: Network Devices
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.004 Compromise Infrastructure: Server
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.007 Compromise Infrastructure: Serverless
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.003 Compromise Infrastructure: Virtual Private Server
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.006 Compromise Infrastructure: Web Services
+DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.003 Create Account: Cloud Account
+DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.002 Create Account: Domain Account
+DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.001 Create Account: Local Account
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.005 Create or Modify System Process: Container Service
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.001 Create or Modify System Process: Launch Agent
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.004 Create or Modify System Process: Launch Daemon
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.002 Create or Modify System Process: Systemd Service
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.003 Create or Modify System Process: Windows Service
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.006 Credentials from Password Stores: Cloud Secrets Management Stores
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.003 Credentials from Password Stores: Credentials from Web Browsers
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.001 Credentials from Password Stores: Keychain
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.005 Credentials from Password Stores: Password Managers
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.002 Credentials from Password Stores: Securityd Memory
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.004 Credentials from Password Stores: Windows Credential Manager
+DETE-1,CSV-IMPORT,T1485 Data Destruction -> T1485.001 Data Destruction: Lifecycle-Triggered Deletion
+DETE-1,CSV-IMPORT,T1132 Data Encoding -> T1132.002 Data Encoding: Non-Standard Encoding
+DETE-1,CSV-IMPORT,T1132 Data Encoding -> T1132.001 Data Encoding: Standard Encoding
+DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.003 Data Manipulation: Runtime Data Manipulation
+DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.001 Data Manipulation: Stored Data Manipulation
+DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.002 Data Manipulation: Transmitted Data Manipulation
+DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.001 Data Obfuscation: Junk Data
+DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.003 Data Obfuscation: Protocol or Service Impersonation
+DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.002 Data Obfuscation: Steganography
+DETE-1,CSV-IMPORT,T1074 Data Staged -> T1074.001 Data Staged: Local Data Staging
+DETE-1,CSV-IMPORT,T1074 Data Staged -> T1074.002 Data Staged: Remote Data Staging
+DETE-1,CSV-IMPORT,T1602 Data from Configuration Repository -> T1602.002 Data from Configuration Repository: Network Device Configuration Dump
+DETE-1,CSV-IMPORT,T1602 Data from Configuration Repository -> T1602.001 Data from Configuration Repository: SNMP (MIB Dump)
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.003 Data from Information Repositories: Code Repositories
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.001 Data from Information Repositories: Confluence
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.004 Data from Information Repositories: Customer Relationship Management Software
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.006 Data from Information Repositories: Databases
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.005 Data from Information Repositories: Messaging Applications
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.002 Data from Information Repositories: Sharepoint
+DETE-1,CSV-IMPORT,T1491 Defacement -> T1491.002 Defacement: External Defacement
+DETE-1,CSV-IMPORT,T1491 Defacement -> T1491.001 Defacement: Internal Defacement
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.002 Develop Capabilities: Code Signing Certificates
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.003 Develop Capabilities: Digital Certificates
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.004 Develop Capabilities: Exploits
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.001 Develop Capabilities: Malware
+DETE-1,CSV-IMPORT,T1561 Disk Wipe -> T1561.001 Disk Wipe: Disk Content Wipe
+DETE-1,CSV-IMPORT,T1561 Disk Wipe -> T1561.002 Disk Wipe: Disk Structure Wipe
+DETE-1,CSV-IMPORT,T1484 Domain or Tenant Policy Modification -> T1484.001 Domain or Tenant Policy Modification: Group Policy Modification
+DETE-1,CSV-IMPORT,T1484 Domain or Tenant Policy Modification -> T1484.002 Domain or Tenant Policy Modification: Trust Modification
+DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.003 Dynamic Resolution: DNS Calculation
+DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.002 Dynamic Resolution: Domain Generation Algorithms
+DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.001 Dynamic Resolution: Fast Flux DNS
+DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.003 Email Collection: Email Forwarding Rule
+DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.001 Email Collection: Local Email Collection
+DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.002 Email Collection: Remote Email Collection
+DETE-1,CSV-IMPORT,T1573 Encrypted Channel -> T1573.002 Encrypted Channel: Asymmetric Cryptography
+DETE-1,CSV-IMPORT,T1573 Encrypted Channel -> T1573.001 Encrypted Channel: Symmetric Cryptography
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.003 Endpoint Denial of Service: Application Exhaustion Flood
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.004 Endpoint Denial of Service: Application or System Exploitation
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.001 Endpoint Denial of Service: OS Exhaustion Flood
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.002 Endpoint Denial of Service: Service Exhaustion Flood
+DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.003 Establish Accounts: Cloud Accounts
+DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.002 Establish Accounts: Email Accounts
+DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.001 Establish Accounts: Social Media Accounts
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.008 Event Triggered Execution: Accessibility Features
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.009 Event Triggered Execution: AppCert DLLs
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.010 Event Triggered Execution: AppInit DLLs
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.011 Event Triggered Execution: Application Shimming
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.001 Event Triggered Execution: Change Default File Association
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.015 Event Triggered Execution: Component Object Model Hijacking
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.014 Event Triggered Execution: Emond
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.012 Event Triggered Execution: Image File Execution Options Injection
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.016 Event Triggered Execution: Installer Packages
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.006 Event Triggered Execution: LC_LOAD_DYLIB Addition
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.007 Event Triggered Execution: Netsh Helper DLL
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.013 Event Triggered Execution: PowerShell Profile
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.018 Event Triggered Execution: Python Startup Hooks
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.002 Event Triggered Execution: Screensaver
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.005 Event Triggered Execution: Trap
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.017 Event Triggered Execution: Udev Rules
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.004 Event Triggered Execution: Unix Shell Configuration Modification
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.003 Event Triggered Execution: Windows Management Instrumentation Event Subscription
+DETE-1,CSV-IMPORT,T1480 Execution Guardrails -> T1480.001 Execution Guardrails: Environmental Keying
+DETE-1,CSV-IMPORT,T1480 Execution Guardrails -> T1480.002 Execution Guardrails: Mutual Exclusion
+DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.002 Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.001 Exfiltration Over Alternative Protocol: Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.003 Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol
+DETE-1,CSV-IMPORT,T1011 Exfiltration Over Other Network Medium -> T1011.001 Exfiltration Over Other Network Medium: Exfiltration Over Bluetooth
+DETE-1,CSV-IMPORT,T1052 Exfiltration Over Physical Medium -> T1052.001 Exfiltration Over Physical Medium: Exfiltration over USB
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.004 Exfiltration Over Web Service: Exfiltration Over Webhook
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.002 Exfiltration Over Web Service: Exfiltration to Cloud Storage
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.001 Exfiltration Over Web Service: Exfiltration to Code Repository
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.003 Exfiltration Over Web Service: Exfiltration to Text Storage Sites
+DETE-1,CSV-IMPORT,T1222 File and Directory Permissions Modification -> T1222.002 File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification
+DETE-1,CSV-IMPORT,T1222 File and Directory Permissions Modification -> T1222.001 File and Directory Permissions Modification: Windows File and Directory Permissions Modification
+DETE-1,CSV-IMPORT,T1606 Forge Web Credentials -> T1606.002 Forge Web Credentials: SAML Tokens
+DETE-1,CSV-IMPORT,T1606 Forge Web Credentials -> T1606.001 Forge Web Credentials: Web Cookies
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.004 Gather Victim Host Information: Client Configurations
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.003 Gather Victim Host Information: Firmware
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.001 Gather Victim Host Information: Hardware
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.002 Gather Victim Host Information: Software
+DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.001 Gather Victim Identity Information: Credentials
+DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.002 Gather Victim Identity Information: Email Addresses
+DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.003 Gather Victim Identity Information: Employee Names
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.002 Gather Victim Network Information: DNS
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.001 Gather Victim Network Information: Domain Properties
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.005 Gather Victim Network Information: IP Addresses
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.006 Gather Victim Network Information: Network Security Appliances
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.004 Gather Victim Network Information: Network Topology
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.003 Gather Victim Network Information: Network Trust Dependencies
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.002 Gather Victim Org Information: Business Relationships
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.001 Gather Victim Org Information: Determine Physical Locations
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.003 Gather Victim Org Information: Identify Business Tempo
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.004 Gather Victim Org Information: Identify Roles
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.013 Hide Artifacts: Bind Mounts
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.008 Hide Artifacts: Email Hiding Rules
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.014 Hide Artifacts: Extended Attributes
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.012 Hide Artifacts: File/Path Exclusions
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.005 Hide Artifacts: Hidden File System
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.001 Hide Artifacts: Hidden Files and Directories
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.002 Hide Artifacts: Hidden Users
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.003 Hide Artifacts: Hidden Window
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.011 Hide Artifacts: Ignore Process Interrupts
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.004 Hide Artifacts: NTFS File Attributes
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.010 Hide Artifacts: Process Argument Spoofing
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.009 Hide Artifacts: Resource Forking
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.006 Hide Artifacts: Run Virtual Instance
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.007 Hide Artifacts: VBA Stomping
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.014 Hijack Execution Flow: AppDomainManager
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.012 Hijack Execution Flow: COR_PROFILER
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.001 Hijack Execution Flow: DLL
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.004 Hijack Execution Flow: Dylib Hijacking
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.006 Hijack Execution Flow: Dynamic Linker Hijacking
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.005 Hijack Execution Flow: Executable Installer File Permissions Weakness
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.013 Hijack Execution Flow: KernelCallbackTable
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.007 Hijack Execution Flow: Path Interception by PATH Environment Variable
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.008 Hijack Execution Flow: Path Interception by Search Order Hijacking
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.009 Hijack Execution Flow: Path Interception by Unquoted Path
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.010 Hijack Execution Flow: Services File Permissions Weakness
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.011 Hijack Execution Flow: Services Registry Permissions Weakness
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.002 Impair Defenses: Disable Windows Event Logging
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.007 Impair Defenses: Disable or Modify Cloud Firewall
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.008 Impair Defenses: Disable or Modify Cloud Logs
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.012 Impair Defenses: Disable or Modify Linux Audit System
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.013 Impair Defenses: Disable or Modify Network Device Firewall
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.004 Impair Defenses: Disable or Modify System Firewall
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.001 Impair Defenses: Disable or Modify Tools
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.010 Impair Defenses: Downgrade Attack
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.003 Impair Defenses: Impair Command History Logging
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.006 Impair Defenses: Indicator Blocking
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.009 Impair Defenses: Safe Mode Boot
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.011 Impair Defenses: Spoof Security Alerting
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.003 Indicator Removal: Clear Command History
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.002 Indicator Removal: Clear Linux or Mac System Logs
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.008 Indicator Removal: Clear Mailbox Data
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.007 Indicator Removal: Clear Network Connection History and Configurations
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.009 Indicator Removal: Clear Persistence
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.001 Indicator Removal: Clear Windows Event Logs
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.004 Indicator Removal: File Deletion
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.005 Indicator Removal: Network Share Connection Removal
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.010 Indicator Removal: Relocate Malware
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.006 Indicator Removal: Timestomp
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.004 Input Capture: Credential API Hooking
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.002 Input Capture: GUI Input Capture
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.001 Input Capture: Keylogging
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.003 Input Capture: Web Portal Capture
+DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.001 Inter-Process Communication: Component Object Model
+DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.002 Inter-Process Communication: Dynamic Data Exchange
+DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.003 Inter-Process Communication: XPC Services
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.009 Masquerading: Break Process Trees
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.012 Masquerading: Browser Fingerprint
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.007 Masquerading: Double File Extension
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.001 Masquerading: Invalid Code Signature
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.010 Masquerading: Masquerade Account Name
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.008 Masquerading: Masquerade File Type
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.004 Masquerading: Masquerade Task or Service
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.005 Masquerading: Match Legitimate Resource Name or Location
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.011 Masquerading: Overwrite Process Arguments
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.003 Masquerading: Rename Legitimate Utilities
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.002 Masquerading: Right-to-Left Override
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.006 Masquerading: Space after Filename
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.009 Modify Authentication Process: Conditional Access Policies
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.001 Modify Authentication Process: Domain Controller Authentication
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.007 Modify Authentication Process: Hybrid Identity
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.006 Modify Authentication Process: Multi-Factor Authentication
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.004 Modify Authentication Process: Network Device Authentication
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.008 Modify Authentication Process: Network Provider DLL
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.002 Modify Authentication Process: Password Filter DLL
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.003 Modify Authentication Process: Pluggable Authentication Modules
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.005 Modify Authentication Process: Reversible Encryption
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.002 Modify Cloud Compute Infrastructure: Create Cloud Instance
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.001 Modify Cloud Compute Infrastructure: Create Snapshot
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.003 Modify Cloud Compute Infrastructure: Delete Cloud Instance
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.005 Modify Cloud Compute Infrastructure: Modify Cloud Compute Configurations
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.004 Modify Cloud Compute Infrastructure: Revert Cloud Instance
+DETE-1,CSV-IMPORT,T1601 Modify System Image -> T1601.002 Modify System Image: Downgrade System Image
+DETE-1,CSV-IMPORT,T1601 Modify System Image -> T1601.001 Modify System Image: Patch System Image
+DETE-1,CSV-IMPORT,T1599 Network Boundary Bridging -> T1599.001 Network Boundary Bridging: Network Address Translation Traversal
+DETE-1,CSV-IMPORT,T1498 Network Denial of Service -> T1498.001 Network Denial of Service: Direct Network Flood
+DETE-1,CSV-IMPORT,T1498 Network Denial of Service -> T1498.002 Network Denial of Service: Reflection Amplification
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.008 OS Credential Dumping: /etc/passwd and /etc/shadow
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.005 OS Credential Dumping: Cached Domain Credentials
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.006 OS Credential Dumping: DCSync
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.004 OS Credential Dumping: LSA Secrets
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.001 OS Credential Dumping: LSASS Memory
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.003 OS Credential Dumping: NTDS
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.007 OS Credential Dumping: Proc Filesystem
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.002 OS Credential Dumping: Security Account Manager
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.001 Obfuscated Files or Information: Binary Padding
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.010 Obfuscated Files or Information: Command Obfuscation
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.004 Obfuscated Files or Information: Compile After Delivery
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.015 Obfuscated Files or Information: Compression
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.007 Obfuscated Files or Information: Dynamic API Resolution
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.009 Obfuscated Files or Information: Embedded Payloads
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.013 Obfuscated Files or Information: Encrypted/Encoded File
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.011 Obfuscated Files or Information: Fileless Storage
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.006 Obfuscated Files or Information: HTML Smuggling
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.005 Obfuscated Files or Information: Indicator Removal from Tools
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.016 Obfuscated Files or Information: Junk Code Insertion
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.012 Obfuscated Files or Information: LNK Icon Smuggling
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.014 Obfuscated Files or Information: Polymorphic Code
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.017 Obfuscated Files or Information: SVG Smuggling
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.002 Obfuscated Files or Information: Software Packing
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.003 Obfuscated Files or Information: Steganography
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.008 Obfuscated Files or Information: Stripped Payloads
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.007 Obtain Capabilities: Artificial Intelligence
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.003 Obtain Capabilities: Code Signing Certificates
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.004 Obtain Capabilities: Digital Certificates
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.005 Obtain Capabilities: Exploits
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.001 Obtain Capabilities: Malware
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.002 Obtain Capabilities: Tool
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.006 Obtain Capabilities: Vulnerabilities
+DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.006 Office Application Startup: Add-ins
+DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.001 Office Application Startup: Office Template Macros
+DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.002 Office Application Startup: Office Test
+DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.003 Office Application Startup: Outlook Forms
+DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.004 Office Application Startup: Outlook Home Page
+DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.005 Office Application Startup: Outlook Rules
+DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.003 Permission Groups Discovery: Cloud Groups
+DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.002 Permission Groups Discovery: Domain Groups
+DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.001 Permission Groups Discovery: Local Groups
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.002 Phishing for Information: Spearphishing Attachment
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.003 Phishing for Information: Spearphishing Link
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.001 Phishing for Information: Spearphishing Service
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.004 Phishing for Information: Spearphishing Voice
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.001 Phishing: Spearphishing Attachment
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.002 Phishing: Spearphishing Link
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.004 Phishing: Spearphishing Voice
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.003 Phishing: Spearphishing via Service
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.003 Pre-OS Boot: Bootkit
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.002 Pre-OS Boot: Component Firmware
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.004 Pre-OS Boot: ROMMONkit
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.001 Pre-OS Boot: System Firmware
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.005 Pre-OS Boot: TFTP Boot
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.004 Process Injection: Asynchronous Procedure Call
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.001 Process Injection: Dynamic-link Library Injection
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.011 Process Injection: Extra Window Memory Injection
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.015 Process Injection: ListPlanting
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.002 Process Injection: Portable Executable Injection
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.009 Process Injection: Proc Memory
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.013 Process Injection: Process Doppelgänging
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.012 Process Injection: Process Hollowing
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.008 Process Injection: Ptrace System Calls
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.003 Process Injection: Thread Execution Hijacking
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.005 Process Injection: Thread Local Storage
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.014 Process Injection: VDSO Hijacking
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.004 Proxy: Domain Fronting
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.002 Proxy: External Proxy
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.001 Proxy: Internal Proxy
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.003 Proxy: Multi-hop Proxy
+DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.001 Remote Access Tools: IDE Tunneling
+DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.003 Remote Access Tools: Remote Access Hardware
+DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.002 Remote Access Tools: Remote Desktop Software
+DETE-1,CSV-IMPORT,T1563 Remote Service Session Hijacking -> T1563.002 Remote Service Session Hijacking: RDP Hijacking
+DETE-1,CSV-IMPORT,T1563 Remote Service Session Hijacking -> T1563.001 Remote Service Session Hijacking: SSH Hijacking
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.007 Remote Services: Cloud Services
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.008 Remote Services: Direct Cloud VM Connections
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.003 Remote Services: Distributed Component Object Model
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.001 Remote Services: Remote Desktop Protocol
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.002 Remote Services: SMB/Windows Admin Shares
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.004 Remote Services: SSH
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.005 Remote Services: VNC
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.006 Remote Services: Windows Remote Management
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.002 Resource Hijacking: Bandwidth Hijacking
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.004 Resource Hijacking: Cloud Service Hijacking
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.001 Resource Hijacking: Compute Hijacking
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.003 Resource Hijacking: SMS Pumping
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.002 Scheduled Task/Job: At
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.007 Scheduled Task/Job: Container Orchestration Job
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.003 Scheduled Task/Job: Cron
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.005 Scheduled Task/Job: Scheduled Task
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.006 Scheduled Task/Job: Systemd Timers
+DETE-1,CSV-IMPORT,T1597 Search Closed Sources -> T1597.002 Search Closed Sources: Purchase Technical Data
+DETE-1,CSV-IMPORT,T1597 Search Closed Sources -> T1597.001 Search Closed Sources: Threat Intel Vendors
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.004 Search Open Technical Databases: CDNs
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.001 Search Open Technical Databases: DNS/Passive DNS
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.003 Search Open Technical Databases: Digital Certificates
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.005 Search Open Technical Databases: Scan Databases
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.002 Search Open Technical Databases: WHOIS
+DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.003 Search Open Websites/Domains: Code Repositories
+DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.002 Search Open Websites/Domains: Search Engines
+DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.001 Search Open Websites/Domains: Social Media
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.004 Server Software Component: IIS Components
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.001 Server Software Component: SQL Stored Procedures
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.005 Server Software Component: Terminal Services DLL
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.002 Server Software Component: Transport Agent
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.003 Server Software Component: Web Shell
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.006 Server Software Component: vSphere Installation Bundles
+DETE-1,CSV-IMPORT,T1518 Software Discovery -> T1518.002 Software Discovery: Backup Software Discovery
+DETE-1,CSV-IMPORT,T1518 Software Discovery -> T1518.001 Software Discovery: Security Software Discovery
+DETE-1,CSV-IMPORT,T1176 Software Extensions -> T1176.001 Software Extensions: Browser Extensions
+DETE-1,CSV-IMPORT,T1176 Software Extensions -> T1176.002 Software Extensions: IDE Extensions
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.004 Stage Capabilities: Drive-by Target
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.003 Stage Capabilities: Install Digital Certificate
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.005 Stage Capabilities: Link Target
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.006 Stage Capabilities: SEO Poisoning
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.001 Stage Capabilities: Upload Malware
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.002 Stage Capabilities: Upload Tool
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.004 Steal or Forge Kerberos Tickets: AS-REP Roasting
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.005 Steal or Forge Kerberos Tickets: Ccache Files
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.001 Steal or Forge Kerberos Tickets: Golden Ticket
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.003 Steal or Forge Kerberos Tickets: Kerberoasting
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.002 Steal or Forge Kerberos Tickets: Silver Ticket
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.002 Subvert Trust Controls: Code Signing
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.006 Subvert Trust Controls: Code Signing Policy Modification
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.001 Subvert Trust Controls: Gatekeeper Bypass
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.004 Subvert Trust Controls: Install Root Certificate
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.005 Subvert Trust Controls: Mark-of-the-Web Bypass
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.003 Subvert Trust Controls: SIP and Trust Provider Hijacking
+DETE-1,CSV-IMPORT,T1195 Supply Chain Compromise -> T1195.003 Supply Chain Compromise: Compromise Hardware Supply Chain
+DETE-1,CSV-IMPORT,T1195 Supply Chain Compromise -> T1195.001 Supply Chain Compromise: Compromise Software Dependencies and Development Tools
+DETE-1,CSV-IMPORT,T1195 Supply Chain Compromise -> T1195.002 Supply Chain Compromise: Compromise Software Supply Chain
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.003 System Binary Proxy Execution: CMSTP
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.001 System Binary Proxy Execution: Compiled HTML File
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.002 System Binary Proxy Execution: Control Panel
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.015 System Binary Proxy Execution: Electron Applications
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.004 System Binary Proxy Execution: InstallUtil
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.014 System Binary Proxy Execution: MMC
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.013 System Binary Proxy Execution: Mavinject
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.005 System Binary Proxy Execution: Mshta
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.007 System Binary Proxy Execution: Msiexec
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.008 System Binary Proxy Execution: Odbcconf
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.009 System Binary Proxy Execution: Regsvcs/Regasm
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.010 System Binary Proxy Execution: Regsvr32
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.011 System Binary Proxy Execution: Rundll32
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.012 System Binary Proxy Execution: Verclsid
+DETE-1,CSV-IMPORT,T1614 System Location Discovery -> T1614.001 System Location Discovery: System Language Discovery
+DETE-1,CSV-IMPORT,T1016 System Network Configuration Discovery -> T1016.001 System Network Configuration Discovery: Internet Connection Discovery
+DETE-1,CSV-IMPORT,T1016 System Network Configuration Discovery -> T1016.002 System Network Configuration Discovery: Wi-Fi Discovery
+DETE-1,CSV-IMPORT,T1216 System Script Proxy Execution -> T1216.001 System Script Proxy Execution: PubPrn
+DETE-1,CSV-IMPORT,T1216 System Script Proxy Execution -> T1216.002 System Script Proxy Execution: SyncAppvPublishingServer
+DETE-1,CSV-IMPORT,T1569 System Services -> T1569.001 System Services: Launchctl
+DETE-1,CSV-IMPORT,T1569 System Services -> T1569.002 System Services: Service Execution
+DETE-1,CSV-IMPORT,T1569 System Services -> T1569.003 System Services: Systemctl
+DETE-1,CSV-IMPORT,T1205 Traffic Signaling -> T1205.001 Traffic Signaling: Port Knocking
+DETE-1,CSV-IMPORT,T1205 Traffic Signaling -> T1205.002 Traffic Signaling: Socket Filters
+DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.002 Trusted Developer Utilities Proxy Execution: ClickOnce
+DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.003 Trusted Developer Utilities Proxy Execution: JamPlus
+DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.001 Trusted Developer Utilities Proxy Execution: MSBuild
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.008 Unsecured Credentials: Chat Messages
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.005 Unsecured Credentials: Cloud Instance Metadata API
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.007 Unsecured Credentials: Container API
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.001 Unsecured Credentials: Credentials In Files
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.002 Unsecured Credentials: Credentials in Registry
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.006 Unsecured Credentials: Group Policy Preferences
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.004 Unsecured Credentials: Private Keys
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.003 Unsecured Credentials: Shell History
+DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.001 Use Alternate Authentication Material: Application Access Token
+DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.002 Use Alternate Authentication Material: Pass the Hash
+DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.003 Use Alternate Authentication Material: Pass the Ticket
+DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.004 Use Alternate Authentication Material: Web Session Cookie
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.004 User Execution: Malicious Copy and Paste
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.002 User Execution: Malicious File
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.003 User Execution: Malicious Image
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.005 User Execution: Malicious Library
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.001 User Execution: Malicious Link
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.004 Valid Accounts: Cloud Accounts
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.001 Valid Accounts: Default Accounts
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.002 Valid Accounts: Domain Accounts
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.003 Valid Accounts: Local Accounts
+DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.001 Virtualization/Sandbox Evasion: System Checks
+DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.003 Virtualization/Sandbox Evasion: Time Based Checks
+DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.002 Virtualization/Sandbox Evasion: User Activity Based Checks
+DETE-1,CSV-IMPORT,T1600 Weaken Encryption -> T1600.002 Weaken Encryption: Disable Crypto Hardware
+DETE-1,CSV-IMPORT,T1600 Weaken Encryption -> T1600.001 Weaken Encryption: Reduce Key Space
+DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.002 Web Service: Bidirectional Communication
+DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.001 Web Service: Dead Drop Resolver
+DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.003 Web Service: One-Way Communication
