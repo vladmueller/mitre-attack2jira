@@ -33,3 +33,9 @@ python3 -m venv venv
 
 pip install -r .\requirements.txt
 ```
+
+## CSV-Import in Jira
+
+**Vorbereitung**: In Jira muss manuell ein "Import-Ticket" angelegt werden, welches wir im Jira CSV-Importer verwenden müssen.
+
+z.B.: DETE-1 CSV-IMPORT
