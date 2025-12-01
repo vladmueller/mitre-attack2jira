@@ -20,12 +20,18 @@ main_map = {row["ID"]: row["name"] for _, row in main.iterrows()}
 rows = []
 
 for _, row in subs.iterrows():
-    sub_id = row["ID"]                          # T1595.001
-    parent_id = sub_id.split(".")[0]            # T1595
-    sub_name = row["name"]                      # Active Scanning: Scanning IP Blocks
+    sub_id = row["ID"]                              # T1595.001
+    parent_id = sub_id.split(".")[0]                # T1595
     main_name = main_map.get(parent_id, "UNKNOWN")  # falls Zuordnung fehlt
 
-    # Beispiel: "T1595 Active Scanning -> T1595.001 Active Scanning: Scanning IP Blocks"
+    # Sub-Name bereinigen: Alles vor dem ersten ":" entfernen
+    raw_sub_name = row["name"]
+    if ":" in raw_sub_name:
+        sub_name = raw_sub_name.split(":", 1)[1].strip()
+    else:
+        sub_name = raw_sub_name.strip()
+
+    # z.B.: "T1595 Active Scanning -> T1595.001 Scanning IP Blocks"
     mitre_field = f"{parent_id} {main_name} -> {sub_id} {sub_name}"
 
     rows.append({
@@ -34,6 +40,5 @@ for _, row in subs.iterrows():
         "MITRE": mitre_field           # Custom-Field-Wert
     })
 
-# In CSV schreiben
 out = pd.DataFrame(rows)
 out.to_csv("data/output/output.csv", index=False)
