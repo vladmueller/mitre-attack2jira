@@ -41,4 +41,4 @@ for _, row in subs.iterrows():
     })
 
 out = pd.DataFrame(rows)
-out.to_csv("data/output/output.csv", index=False)
+out.to_csv("data/output/mitre_values.csv", index=False)
