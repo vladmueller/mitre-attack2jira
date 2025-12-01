@@ -14,6 +14,12 @@ main = df[~df["ID"].str.contains(r"\.")].copy()
 # Subtechniques (mit Punkt)
 subs = df[df["ID"].str.contains(r"\.")].copy()
 
+# Numerischen Subteil extrahieren, z.B. aus "T1548.006" → 6
+subs["sub_num"] = subs["ID"].apply(lambda x: int(x.split(".")[1]))
+
+# Sortieren nach: Parent-ID, sub_num
+subs = subs.sort_values(by=["ID", "sub_num"])
+
 # Mapping von Technique-ID zu (ID, Name)
 main_map = {row["ID"]: row["name"] for _, row in main.iterrows()}
 

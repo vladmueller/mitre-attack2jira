@@ -1,430 +1,191 @@
 IssueKey,Summary,MITRE
-DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.002 Bypass User Account Control
-DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.004 Elevated Execution with Prompt
-DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.001 Setuid and Setgid
-DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.003 Sudo and Sudo Caching
-DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.006 TCC Manipulation
-DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.005 Temporary Elevated Cloud Access
+DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.001 Junk Data
+DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.002 Steganography
+DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.003 Protocol or Service Impersonation
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.001 LSASS Memory
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.002 Security Account Manager
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.003 NTDS
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.004 LSA Secrets
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.005 Cached Domain Credentials
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.006 DCSync
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.007 Proc Filesystem
+DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.008 /etc/passwd and /etc/shadow
+DETE-1,CSV-IMPORT,T1011 Exfiltration Over Other Network Medium -> T1011.001 Exfiltration Over Bluetooth
+DETE-1,CSV-IMPORT,T1016 System Network Configuration Discovery -> T1016.001 Internet Connection Discovery
+DETE-1,CSV-IMPORT,T1016 System Network Configuration Discovery -> T1016.002 Wi-Fi Discovery
+DETE-1,CSV-IMPORT,T1020 Automated Exfiltration -> T1020.001 Traffic Duplication
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.001 Remote Desktop Protocol
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.002 SMB/Windows Admin Shares
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.003 Distributed Component Object Model
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.004 SSH
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.005 VNC
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.006 Windows Remote Management
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.007 Cloud Services
+DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.008 Direct Cloud VM Connections
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.001 Binary Padding
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.002 Software Packing
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.003 Steganography
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.004 Compile After Delivery
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.005 Indicator Removal from Tools
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.006 HTML Smuggling
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.007 Dynamic API Resolution
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.008 Stripped Payloads
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.009 Embedded Payloads
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.010 Command Obfuscation
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.011 Fileless Storage
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.012 LNK Icon Smuggling
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.013 Encrypted/Encoded File
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.014 Polymorphic Code
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.015 Compression
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.016 Junk Code Insertion
+DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.017 SVG Smuggling
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.001 Invalid Code Signature
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.002 Right-to-Left Override
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.003 Rename Legitimate Utilities
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.004 Masquerade Task or Service
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.005 Match Legitimate Resource Name or Location
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.006 Space after Filename
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.007 Double File Extension
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.008 Masquerade File Type
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.009 Break Process Trees
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.010 Masquerade Account Name
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.011 Overwrite Process Arguments
+DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.012 Browser Fingerprint
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.001 Logon Script (Windows)
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.002 Login Hook
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.003 Network Logon Script
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.004 RC Scripts
+DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.005 Startup Items
+DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.001 Exfiltration Over Symmetric Encrypted Non-C2 Protocol
+DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.002 Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
+DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.003 Exfiltration Over Unencrypted Non-C2 Protocol
+DETE-1,CSV-IMPORT,T1052 Exfiltration Over Physical Medium -> T1052.001 Exfiltration over USB
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.002 At
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.003 Cron
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.005 Scheduled Task
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.006 Systemd Timers
+DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.007 Container Orchestration Job
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.001 Dynamic-link Library Injection
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.002 Portable Executable Injection
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.003 Thread Execution Hijacking
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.004 Asynchronous Procedure Call
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.005 Thread Local Storage
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.008 Ptrace System Calls
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.009 Proc Memory
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.011 Extra Window Memory Injection
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.012 Process Hollowing
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.013 Process Doppelgänging
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.014 VDSO Hijacking
+DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.015 ListPlanting
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.001 Keylogging
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.002 GUI Input Capture
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.003 Web Portal Capture
+DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.004 Credential API Hooking
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.001 PowerShell
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.002 AppleScript
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.003 Windows Command Shell
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.004 Unix Shell
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.005 Visual Basic
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.006 Python
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.007 JavaScript
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.008 Network Device CLI
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.009 Cloud API
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.010 AutoHotKey & AutoIT
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.011 Lua
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.012 Hypervisor CLI
+DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.013 Container CLI/API
+DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.001 Local Groups
+DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.002 Domain Groups
+DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.003 Cloud Groups
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.001 Clear Windows Event Logs
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.002 Clear Linux or Mac System Logs
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.003 Clear Command History
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.004 File Deletion
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.005 Network Share Connection Removal
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.006 Timestomp
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.007 Clear Network Connection History and Configurations
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.008 Clear Mailbox Data
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.009 Clear Persistence
+DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.010 Relocate Malware
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.001 Web Protocols
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.002 File Transfer Protocols
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.003 Mail Protocols
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.004 DNS
+DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.005 Publish/Subscribe Protocols
+DETE-1,CSV-IMPORT,T1074 Data Staged -> T1074.001 Local Data Staging
+DETE-1,CSV-IMPORT,T1074 Data Staged -> T1074.002 Remote Data Staging
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.001 Default Accounts
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.002 Domain Accounts
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.003 Local Accounts
+DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.004 Cloud Accounts
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.001 Local Account
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.002 Domain Account
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.003 Email Account
+DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.004 Cloud Account
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.001 Internal Proxy
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.002 External Proxy
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.003 Multi-hop Proxy
+DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.004 Domain Fronting
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.001 Additional Cloud Credentials
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.002 Additional Email Delegate Permissions
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.003 Additional Cloud Roles
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.004 SSH Authorized Keys
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.005 Device Registration
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.006 Additional Container Cluster Roles
+DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.007 Additional Local or Domain Groups
+DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.001 Dead Drop Resolver
+DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.002 Bidirectional Communication
+DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.003 One-Way Communication
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.001 Password Guessing
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.002 Password Cracking
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.003 Password Spraying
+DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.004 Credential Stuffing
+DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.001 Local Email Collection
+DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.002 Remote Email Collection
+DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.003 Email Forwarding Rule
+DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.001 MSBuild
+DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.002 ClickOnce
+DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.003 JamPlus
+DETE-1,CSV-IMPORT,T1132 Data Encoding -> T1132.001 Standard Encoding
+DETE-1,CSV-IMPORT,T1132 Data Encoding -> T1132.002 Non-Standard Encoding
+DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.001 Token Impersonation/Theft
 DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.002 Create Process with Token
 DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.003 Make and Impersonate Token
 DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.004 Parent PID Spoofing
 DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.005 SID-History Injection
-DETE-1,CSV-IMPORT,T1134 Access Token Manipulation -> T1134.001 Token Impersonation/Theft
-DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.004 Cloud Account
-DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.002 Domain Account
-DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.003 Email Account
-DETE-1,CSV-IMPORT,T1087 Account Discovery -> T1087.001 Local Account
-DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.001 Additional Cloud Credentials
-DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.003 Additional Cloud Roles
-DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.006 Additional Container Cluster Roles
-DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.002 Additional Email Delegate Permissions
-DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.007 Additional Local or Domain Groups
-DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.005 Device Registration
-DETE-1,CSV-IMPORT,T1098 Account Manipulation -> T1098.004 SSH Authorized Keys
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.005 Botnet
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.002 DNS Server
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.001 Domains
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.008 Malvertising
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.004 Server
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.007 Serverless
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.003 Virtual Private Server
-DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.006 Web Services
-DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.001 Scanning IP Blocks
-DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.002 Vulnerability Scanning
-DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.003 Wordlist Scanning
-DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.002 ARP Cache Poisoning
-DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.003 DHCP Spoofing
-DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.004 Evil Twin
-DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.001 LLMNR/NBT-NS Poisoning and SMB Relay
-DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.004 DNS
-DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.002 File Transfer Protocols
-DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.003 Mail Protocols
-DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.005 Publish/Subscribe Protocols
-DETE-1,CSV-IMPORT,T1071 Application Layer Protocol -> T1071.001 Web Protocols
-DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.003 Archive via Custom Method
-DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.002 Archive via Library
-DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.001 Archive via Utility
-DETE-1,CSV-IMPORT,T1020 Automated Exfiltration -> T1020.001 Traffic Duplication
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.014 Active Setup
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.002 Authentication Package
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.006 Kernel Modules and Extensions
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.008 LSASS Driver
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.015 Login Items
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.010 Port Monitors
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.012 Print Processors
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.007 Re-opened Applications
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.001 Registry Run Keys / Startup Folder
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.005 Security Support Provider
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.009 Shortcut Modification
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.003 Time Providers
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.004 Winlogon Helper DLL
-DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.013 XDG Autostart Entries
-DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.002 Login Hook
-DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.001 Logon Script (Windows)
-DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.003 Network Logon Script
-DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.004 RC Scripts
-DETE-1,CSV-IMPORT,T1037 Boot or Logon Initialization Scripts -> T1037.005 Startup Items
-DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.004 Credential Stuffing
-DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.002 Password Cracking
-DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.001 Password Guessing
-DETE-1,CSV-IMPORT,T1110 Brute Force -> T1110.003 Password Spraying
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.002 AppleScript
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.010 AutoHotKey & AutoIT
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.009 Cloud API
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.013 Container CLI/API
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.012 Hypervisor CLI
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.007 JavaScript
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.011 Lua
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.008 Network Device CLI
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.001 PowerShell
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.006 Python
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.004 Unix Shell
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.005 Visual Basic
-DETE-1,CSV-IMPORT,T1059 Command and Scripting Interpreter -> T1059.003 Windows Command Shell
-DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.003 Cloud Accounts
-DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.002 Email Accounts
-DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.001 Social Media Accounts
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.005 Botnet
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.002 DNS Server
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.001 Domains
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.008 Network Devices
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.004 Server
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.007 Serverless
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.003 Virtual Private Server
-DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.006 Web Services
-DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.003 Cloud Account
-DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.002 Domain Account
 DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.001 Local Account
-DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.005 Container Service
-DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.001 Launch Agent
-DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.004 Launch Daemon
-DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.002 Systemd Service
-DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.003 Windows Service
-DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.006 Cloud Secrets Management Stores
-DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.003 Credentials from Web Browsers
-DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.001 Keychain
-DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.005 Password Managers
-DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.002 Securityd Memory
-DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.004 Windows Credential Manager
-DETE-1,CSV-IMPORT,T1485 Data Destruction -> T1485.001 Lifecycle-Triggered Deletion
-DETE-1,CSV-IMPORT,T1132 Data Encoding -> T1132.002 Non-Standard Encoding
-DETE-1,CSV-IMPORT,T1132 Data Encoding -> T1132.001 Standard Encoding
-DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.003 Runtime Data Manipulation
-DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.001 Stored Data Manipulation
-DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.002 Transmitted Data Manipulation
-DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.001 Junk Data
-DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.003 Protocol or Service Impersonation
-DETE-1,CSV-IMPORT,T1001 Data Obfuscation -> T1001.002 Steganography
-DETE-1,CSV-IMPORT,T1074 Data Staged -> T1074.001 Local Data Staging
-DETE-1,CSV-IMPORT,T1074 Data Staged -> T1074.002 Remote Data Staging
-DETE-1,CSV-IMPORT,T1602 Data from Configuration Repository -> T1602.002 Network Device Configuration Dump
-DETE-1,CSV-IMPORT,T1602 Data from Configuration Repository -> T1602.001 SNMP (MIB Dump)
-DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.003 Code Repositories
-DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.001 Confluence
-DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.004 Customer Relationship Management Software
-DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.006 Databases
-DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.005 Messaging Applications
-DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.002 Sharepoint
-DETE-1,CSV-IMPORT,T1491 Defacement -> T1491.002 External Defacement
-DETE-1,CSV-IMPORT,T1491 Defacement -> T1491.001 Internal Defacement
-DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.002 Code Signing Certificates
-DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.003 Digital Certificates
-DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.004 Exploits
-DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.001 Malware
-DETE-1,CSV-IMPORT,T1561 Disk Wipe -> T1561.001 Disk Content Wipe
-DETE-1,CSV-IMPORT,T1561 Disk Wipe -> T1561.002 Disk Structure Wipe
-DETE-1,CSV-IMPORT,T1484 Domain or Tenant Policy Modification -> T1484.001 Group Policy Modification
-DETE-1,CSV-IMPORT,T1484 Domain or Tenant Policy Modification -> T1484.002 Trust Modification
-DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.003 DNS Calculation
-DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.002 Domain Generation Algorithms
-DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.001 Fast Flux DNS
-DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.003 Email Forwarding Rule
-DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.001 Local Email Collection
-DETE-1,CSV-IMPORT,T1114 Email Collection -> T1114.002 Remote Email Collection
-DETE-1,CSV-IMPORT,T1573 Encrypted Channel -> T1573.002 Asymmetric Cryptography
-DETE-1,CSV-IMPORT,T1573 Encrypted Channel -> T1573.001 Symmetric Cryptography
-DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.003 Application Exhaustion Flood
-DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.004 Application or System Exploitation
-DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.001 OS Exhaustion Flood
-DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.002 Service Exhaustion Flood
-DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.003 Cloud Accounts
-DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.002 Email Accounts
-DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.001 Social Media Accounts
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.008 Accessibility Features
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.009 AppCert DLLs
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.010 AppInit DLLs
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.011 Application Shimming
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.001 Change Default File Association
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.015 Component Object Model Hijacking
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.014 Emond
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.012 Image File Execution Options Injection
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.016 Installer Packages
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.006 LC_LOAD_DYLIB Addition
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.007 Netsh Helper DLL
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.013 PowerShell Profile
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.018 Python Startup Hooks
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.002 Screensaver
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.005 Trap
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.017 Udev Rules
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.004 Unix Shell Configuration Modification
-DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.003 Windows Management Instrumentation Event Subscription
-DETE-1,CSV-IMPORT,T1480 Execution Guardrails -> T1480.001 Environmental Keying
-DETE-1,CSV-IMPORT,T1480 Execution Guardrails -> T1480.002 Mutual Exclusion
-DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.002 Exfiltration Over Asymmetric Encrypted Non-C2 Protocol
-DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.001 Exfiltration Over Symmetric Encrypted Non-C2 Protocol
-DETE-1,CSV-IMPORT,T1048 Exfiltration Over Alternative Protocol -> T1048.003 Exfiltration Over Unencrypted Non-C2 Protocol
-DETE-1,CSV-IMPORT,T1011 Exfiltration Over Other Network Medium -> T1011.001 Exfiltration Over Bluetooth
-DETE-1,CSV-IMPORT,T1052 Exfiltration Over Physical Medium -> T1052.001 Exfiltration over USB
-DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.004 Exfiltration Over Webhook
-DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.002 Exfiltration to Cloud Storage
-DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.001 Exfiltration to Code Repository
-DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.003 Exfiltration to Text Storage Sites
-DETE-1,CSV-IMPORT,T1222 File and Directory Permissions Modification -> T1222.002 Linux and Mac File and Directory Permissions Modification
-DETE-1,CSV-IMPORT,T1222 File and Directory Permissions Modification -> T1222.001 Windows File and Directory Permissions Modification
-DETE-1,CSV-IMPORT,T1606 Forge Web Credentials -> T1606.002 SAML Tokens
-DETE-1,CSV-IMPORT,T1606 Forge Web Credentials -> T1606.001 Web Cookies
-DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.004 Client Configurations
-DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.003 Firmware
-DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.001 Hardware
-DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.002 Software
-DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.001 Credentials
-DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.002 Email Addresses
-DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.003 Employee Names
-DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.002 DNS
-DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.001 Domain Properties
-DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.005 IP Addresses
-DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.006 Network Security Appliances
-DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.004 Network Topology
-DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.003 Network Trust Dependencies
-DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.002 Business Relationships
-DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.001 Determine Physical Locations
-DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.003 Identify Business Tempo
-DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.004 Identify Roles
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.013 Bind Mounts
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.008 Email Hiding Rules
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.014 Extended Attributes
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.012 File/Path Exclusions
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.005 Hidden File System
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.001 Hidden Files and Directories
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.002 Hidden Users
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.003 Hidden Window
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.011 Ignore Process Interrupts
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.004 NTFS File Attributes
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.010 Process Argument Spoofing
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.009 Resource Forking
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.006 Run Virtual Instance
-DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.007 VBA Stomping
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.014 AppDomainManager
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.012 COR_PROFILER
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.001 DLL
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.004 Dylib Hijacking
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.006 Dynamic Linker Hijacking
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.005 Executable Installer File Permissions Weakness
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.013 KernelCallbackTable
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.007 Path Interception by PATH Environment Variable
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.008 Path Interception by Search Order Hijacking
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.009 Path Interception by Unquoted Path
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.010 Services File Permissions Weakness
-DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.011 Services Registry Permissions Weakness
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.002 Disable Windows Event Logging
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.007 Disable or Modify Cloud Firewall
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.008 Disable or Modify Cloud Logs
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.012 Disable or Modify Linux Audit System
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.013 Disable or Modify Network Device Firewall
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.004 Disable or Modify System Firewall
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.001 Disable or Modify Tools
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.010 Downgrade Attack
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.003 Impair Command History Logging
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.006 Indicator Blocking
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.009 Safe Mode Boot
-DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.011 Spoof Security Alerting
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.003 Clear Command History
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.002 Clear Linux or Mac System Logs
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.008 Clear Mailbox Data
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.007 Clear Network Connection History and Configurations
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.009 Clear Persistence
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.001 Clear Windows Event Logs
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.004 File Deletion
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.005 Network Share Connection Removal
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.010 Relocate Malware
-DETE-1,CSV-IMPORT,T1070 Indicator Removal -> T1070.006 Timestomp
-DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.004 Credential API Hooking
-DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.002 GUI Input Capture
-DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.001 Keylogging
-DETE-1,CSV-IMPORT,T1056 Input Capture -> T1056.003 Web Portal Capture
-DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.001 Component Object Model
-DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.002 Dynamic Data Exchange
-DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.003 XPC Services
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.009 Break Process Trees
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.012 Browser Fingerprint
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.007 Double File Extension
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.001 Invalid Code Signature
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.010 Masquerade Account Name
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.008 Masquerade File Type
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.004 Masquerade Task or Service
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.005 Match Legitimate Resource Name or Location
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.011 Overwrite Process Arguments
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.003 Rename Legitimate Utilities
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.002 Right-to-Left Override
-DETE-1,CSV-IMPORT,T1036 Masquerading -> T1036.006 Space after Filename
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.009 Conditional Access Policies
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.001 Domain Controller Authentication
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.007 Hybrid Identity
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.006 Multi-Factor Authentication
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.004 Network Device Authentication
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.008 Network Provider DLL
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.002 Password Filter DLL
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.003 Pluggable Authentication Modules
-DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.005 Reversible Encryption
-DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.002 Create Cloud Instance
-DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.001 Create Snapshot
-DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.003 Delete Cloud Instance
-DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.005 Modify Cloud Compute Configurations
-DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.004 Revert Cloud Instance
-DETE-1,CSV-IMPORT,T1601 Modify System Image -> T1601.002 Downgrade System Image
-DETE-1,CSV-IMPORT,T1601 Modify System Image -> T1601.001 Patch System Image
-DETE-1,CSV-IMPORT,T1599 Network Boundary Bridging -> T1599.001 Network Address Translation Traversal
-DETE-1,CSV-IMPORT,T1498 Network Denial of Service -> T1498.001 Direct Network Flood
-DETE-1,CSV-IMPORT,T1498 Network Denial of Service -> T1498.002 Reflection Amplification
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.008 /etc/passwd and /etc/shadow
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.005 Cached Domain Credentials
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.006 DCSync
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.004 LSA Secrets
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.001 LSASS Memory
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.003 NTDS
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.007 Proc Filesystem
-DETE-1,CSV-IMPORT,T1003 OS Credential Dumping -> T1003.002 Security Account Manager
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.001 Binary Padding
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.010 Command Obfuscation
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.004 Compile After Delivery
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.015 Compression
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.007 Dynamic API Resolution
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.009 Embedded Payloads
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.013 Encrypted/Encoded File
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.011 Fileless Storage
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.006 HTML Smuggling
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.005 Indicator Removal from Tools
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.016 Junk Code Insertion
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.012 LNK Icon Smuggling
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.014 Polymorphic Code
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.017 SVG Smuggling
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.002 Software Packing
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.003 Steganography
-DETE-1,CSV-IMPORT,T1027 Obfuscated Files or Information -> T1027.008 Stripped Payloads
-DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.007 Artificial Intelligence
-DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.003 Code Signing Certificates
-DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.004 Digital Certificates
-DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.005 Exploits
-DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.001 Malware
-DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.002 Tool
-DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.006 Vulnerabilities
-DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.006 Add-ins
+DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.002 Domain Account
+DETE-1,CSV-IMPORT,T1136 Create Account -> T1136.003 Cloud Account
 DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.001 Office Template Macros
 DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.002 Office Test
 DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.003 Outlook Forms
 DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.004 Outlook Home Page
 DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.005 Outlook Rules
-DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.003 Cloud Groups
-DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.002 Domain Groups
-DETE-1,CSV-IMPORT,T1069 Permission Groups Discovery -> T1069.001 Local Groups
-DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.002 Spearphishing Attachment
-DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.003 Spearphishing Link
-DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.001 Spearphishing Service
-DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.004 Spearphishing Voice
-DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.001 Spearphishing Attachment
-DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.002 Spearphishing Link
-DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.004 Spearphishing Voice
-DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.003 Spearphishing via Service
-DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.003 Bootkit
-DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.002 Component Firmware
-DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.004 ROMMONkit
-DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.001 System Firmware
-DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.005 TFTP Boot
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.004 Asynchronous Procedure Call
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.001 Dynamic-link Library Injection
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.011 Extra Window Memory Injection
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.015 ListPlanting
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.002 Portable Executable Injection
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.009 Proc Memory
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.013 Process Doppelgänging
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.012 Process Hollowing
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.008 Ptrace System Calls
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.003 Thread Execution Hijacking
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.005 Thread Local Storage
-DETE-1,CSV-IMPORT,T1055 Process Injection -> T1055.014 VDSO Hijacking
-DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.004 Domain Fronting
-DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.002 External Proxy
-DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.001 Internal Proxy
-DETE-1,CSV-IMPORT,T1090 Proxy -> T1090.003 Multi-hop Proxy
-DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.001 IDE Tunneling
-DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.003 Remote Access Hardware
-DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.002 Remote Desktop Software
-DETE-1,CSV-IMPORT,T1563 Remote Service Session Hijacking -> T1563.002 RDP Hijacking
-DETE-1,CSV-IMPORT,T1563 Remote Service Session Hijacking -> T1563.001 SSH Hijacking
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.007 Cloud Services
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.008 Direct Cloud VM Connections
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.003 Distributed Component Object Model
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.001 Remote Desktop Protocol
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.002 SMB/Windows Admin Shares
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.004 SSH
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.005 VNC
-DETE-1,CSV-IMPORT,T1021 Remote Services -> T1021.006 Windows Remote Management
-DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.002 Bandwidth Hijacking
-DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.004 Cloud Service Hijacking
-DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.001 Compute Hijacking
-DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.003 SMS Pumping
-DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.002 At
-DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.007 Container Orchestration Job
-DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.003 Cron
-DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.005 Scheduled Task
-DETE-1,CSV-IMPORT,T1053 Scheduled Task/Job -> T1053.006 Systemd Timers
-DETE-1,CSV-IMPORT,T1597 Search Closed Sources -> T1597.002 Purchase Technical Data
-DETE-1,CSV-IMPORT,T1597 Search Closed Sources -> T1597.001 Threat Intel Vendors
-DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.004 CDNs
-DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.001 DNS/Passive DNS
-DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.003 Digital Certificates
-DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.005 Scan Databases
-DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.002 WHOIS
-DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.003 Code Repositories
-DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.002 Search Engines
-DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.001 Social Media
-DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.004 IIS Components
-DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.001 SQL Stored Procedures
-DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.005 Terminal Services DLL
-DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.002 Transport Agent
-DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.003 Web Shell
-DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.006 vSphere Installation Bundles
-DETE-1,CSV-IMPORT,T1518 Software Discovery -> T1518.002 Backup Software Discovery
-DETE-1,CSV-IMPORT,T1518 Software Discovery -> T1518.001 Security Software Discovery
+DETE-1,CSV-IMPORT,T1137 Office Application Startup -> T1137.006 Add-ins
 DETE-1,CSV-IMPORT,T1176 Software Extensions -> T1176.001 Browser Extensions
 DETE-1,CSV-IMPORT,T1176 Software Extensions -> T1176.002 IDE Extensions
-DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.004 Drive-by Target
-DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.003 Install Digital Certificate
-DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.005 Link Target
-DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.006 SEO Poisoning
-DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.001 Upload Malware
-DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.002 Upload Tool
-DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.004 AS-REP Roasting
-DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.005 Ccache Files
-DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.001 Golden Ticket
-DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.003 Kerberoasting
-DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.002 Silver Ticket
-DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.002 Code Signing
-DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.006 Code Signing Policy Modification
-DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.001 Gatekeeper Bypass
-DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.004 Install Root Certificate
-DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.005 Mark-of-the-Web Bypass
-DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.003 SIP and Trust Provider Hijacking
-DETE-1,CSV-IMPORT,T1195 Supply Chain Compromise -> T1195.003 Compromise Hardware Supply Chain
 DETE-1,CSV-IMPORT,T1195 Supply Chain Compromise -> T1195.001 Compromise Software Dependencies and Development Tools
 DETE-1,CSV-IMPORT,T1195 Supply Chain Compromise -> T1195.002 Compromise Software Supply Chain
-DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.003 CMSTP
+DETE-1,CSV-IMPORT,T1195 Supply Chain Compromise -> T1195.003 Compromise Hardware Supply Chain
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.001 Malicious Link
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.002 Malicious File
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.003 Malicious Image
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.004 Malicious Copy and Paste
+DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.005 Malicious Library
+DETE-1,CSV-IMPORT,T1205 Traffic Signaling -> T1205.001 Port Knocking
+DETE-1,CSV-IMPORT,T1205 Traffic Signaling -> T1205.002 Socket Filters
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.001 Confluence
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.002 Sharepoint
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.003 Code Repositories
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.004 Customer Relationship Management Software
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.005 Messaging Applications
+DETE-1,CSV-IMPORT,T1213 Data from Information Repositories -> T1213.006 Databases
+DETE-1,CSV-IMPORT,T1216 System Script Proxy Execution -> T1216.001 PubPrn
+DETE-1,CSV-IMPORT,T1216 System Script Proxy Execution -> T1216.002 SyncAppvPublishingServer
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.001 Compiled HTML File
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.002 Control Panel
-DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.015 Electron Applications
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.003 CMSTP
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.004 InstallUtil
-DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.014 MMC
-DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.013 Mavinject
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.005 Mshta
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.007 Msiexec
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.008 Odbcconf
@@ -432,45 +193,284 @@ DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.009 Regsvcs/Regas
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.010 Regsvr32
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.011 Rundll32
 DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.012 Verclsid
-DETE-1,CSV-IMPORT,T1614 System Location Discovery -> T1614.001 System Language Discovery
-DETE-1,CSV-IMPORT,T1016 System Network Configuration Discovery -> T1016.001 Internet Connection Discovery
-DETE-1,CSV-IMPORT,T1016 System Network Configuration Discovery -> T1016.002 Wi-Fi Discovery
-DETE-1,CSV-IMPORT,T1216 System Script Proxy Execution -> T1216.001 PubPrn
-DETE-1,CSV-IMPORT,T1216 System Script Proxy Execution -> T1216.002 SyncAppvPublishingServer
-DETE-1,CSV-IMPORT,T1569 System Services -> T1569.001 Launchctl
-DETE-1,CSV-IMPORT,T1569 System Services -> T1569.002 Service Execution
-DETE-1,CSV-IMPORT,T1569 System Services -> T1569.003 Systemctl
-DETE-1,CSV-IMPORT,T1205 Traffic Signaling -> T1205.001 Port Knocking
-DETE-1,CSV-IMPORT,T1205 Traffic Signaling -> T1205.002 Socket Filters
-DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.002 ClickOnce
-DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.003 JamPlus
-DETE-1,CSV-IMPORT,T1127 Trusted Developer Utilities Proxy Execution -> T1127.001 MSBuild
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.008 Chat Messages
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.005 Cloud Instance Metadata API
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.007 Container API
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.001 Credentials In Files
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.002 Credentials in Registry
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.006 Group Policy Preferences
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.004 Private Keys
-DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.003 Shell History
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.013 Mavinject
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.014 MMC
+DETE-1,CSV-IMPORT,T1218 System Binary Proxy Execution -> T1218.015 Electron Applications
+DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.001 IDE Tunneling
+DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.002 Remote Desktop Software
+DETE-1,CSV-IMPORT,T1219 Remote Access Tools -> T1219.003 Remote Access Hardware
+DETE-1,CSV-IMPORT,T1222 File and Directory Permissions Modification -> T1222.001 Windows File and Directory Permissions Modification
+DETE-1,CSV-IMPORT,T1222 File and Directory Permissions Modification -> T1222.002 Linux and Mac File and Directory Permissions Modification
+DETE-1,CSV-IMPORT,T1480 Execution Guardrails -> T1480.001 Environmental Keying
+DETE-1,CSV-IMPORT,T1480 Execution Guardrails -> T1480.002 Mutual Exclusion
+DETE-1,CSV-IMPORT,T1484 Domain or Tenant Policy Modification -> T1484.001 Group Policy Modification
+DETE-1,CSV-IMPORT,T1484 Domain or Tenant Policy Modification -> T1484.002 Trust Modification
+DETE-1,CSV-IMPORT,T1485 Data Destruction -> T1485.001 Lifecycle-Triggered Deletion
+DETE-1,CSV-IMPORT,T1491 Defacement -> T1491.001 Internal Defacement
+DETE-1,CSV-IMPORT,T1491 Defacement -> T1491.002 External Defacement
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.001 Compute Hijacking
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.002 Bandwidth Hijacking
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.003 SMS Pumping
+DETE-1,CSV-IMPORT,T1496 Resource Hijacking -> T1496.004 Cloud Service Hijacking
+DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.001 System Checks
+DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.002 User Activity Based Checks
+DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.003 Time Based Checks
+DETE-1,CSV-IMPORT,T1498 Network Denial of Service -> T1498.001 Direct Network Flood
+DETE-1,CSV-IMPORT,T1498 Network Denial of Service -> T1498.002 Reflection Amplification
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.001 OS Exhaustion Flood
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.002 Service Exhaustion Flood
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.003 Application Exhaustion Flood
+DETE-1,CSV-IMPORT,T1499 Endpoint Denial of Service -> T1499.004 Application or System Exploitation
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.001 SQL Stored Procedures
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.002 Transport Agent
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.003 Web Shell
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.004 IIS Components
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.005 Terminal Services DLL
+DETE-1,CSV-IMPORT,T1505 Server Software Component -> T1505.006 vSphere Installation Bundles
+DETE-1,CSV-IMPORT,T1518 Software Discovery -> T1518.001 Security Software Discovery
+DETE-1,CSV-IMPORT,T1518 Software Discovery -> T1518.002 Backup Software Discovery
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.001 System Firmware
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.002 Component Firmware
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.003 Bootkit
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.004 ROMMONkit
+DETE-1,CSV-IMPORT,T1542 Pre-OS Boot -> T1542.005 TFTP Boot
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.001 Launch Agent
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.002 Systemd Service
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.003 Windows Service
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.004 Launch Daemon
+DETE-1,CSV-IMPORT,T1543 Create or Modify System Process -> T1543.005 Container Service
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.001 Change Default File Association
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.002 Screensaver
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.003 Windows Management Instrumentation Event Subscription
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.004 Unix Shell Configuration Modification
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.005 Trap
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.006 LC_LOAD_DYLIB Addition
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.007 Netsh Helper DLL
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.008 Accessibility Features
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.009 AppCert DLLs
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.010 AppInit DLLs
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.011 Application Shimming
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.012 Image File Execution Options Injection
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.013 PowerShell Profile
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.014 Emond
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.015 Component Object Model Hijacking
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.016 Installer Packages
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.017 Udev Rules
+DETE-1,CSV-IMPORT,T1546 Event Triggered Execution -> T1546.018 Python Startup Hooks
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.001 Registry Run Keys / Startup Folder
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.002 Authentication Package
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.003 Time Providers
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.004 Winlogon Helper DLL
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.005 Security Support Provider
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.006 Kernel Modules and Extensions
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.007 Re-opened Applications
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.008 LSASS Driver
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.009 Shortcut Modification
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.010 Port Monitors
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.012 Print Processors
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.013 XDG Autostart Entries
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.014 Active Setup
+DETE-1,CSV-IMPORT,T1547 Boot or Logon Autostart Execution -> T1547.015 Login Items
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.001 Setuid and Setgid
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.002 Bypass User Account Control
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.003 Sudo and Sudo Caching
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.004 Elevated Execution with Prompt
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.005 Temporary Elevated Cloud Access
+DETE-1,CSV-IMPORT,T1548 Abuse Elevation Control Mechanism -> T1548.006 TCC Manipulation
 DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.001 Application Access Token
 DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.002 Pass the Hash
 DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.003 Pass the Ticket
 DETE-1,CSV-IMPORT,T1550 Use Alternate Authentication Material -> T1550.004 Web Session Cookie
-DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.004 Malicious Copy and Paste
-DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.002 Malicious File
-DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.003 Malicious Image
-DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.005 Malicious Library
-DETE-1,CSV-IMPORT,T1204 User Execution -> T1204.001 Malicious Link
-DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.004 Cloud Accounts
-DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.001 Default Accounts
-DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.002 Domain Accounts
-DETE-1,CSV-IMPORT,T1078 Valid Accounts -> T1078.003 Local Accounts
-DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.001 System Checks
-DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.003 Time Based Checks
-DETE-1,CSV-IMPORT,T1497 Virtualization/Sandbox Evasion -> T1497.002 User Activity Based Checks
-DETE-1,CSV-IMPORT,T1600 Weaken Encryption -> T1600.002 Disable Crypto Hardware
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.001 Credentials In Files
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.002 Credentials in Registry
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.003 Shell History
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.004 Private Keys
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.005 Cloud Instance Metadata API
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.006 Group Policy Preferences
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.007 Container API
+DETE-1,CSV-IMPORT,T1552 Unsecured Credentials -> T1552.008 Chat Messages
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.001 Gatekeeper Bypass
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.002 Code Signing
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.003 SIP and Trust Provider Hijacking
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.004 Install Root Certificate
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.005 Mark-of-the-Web Bypass
+DETE-1,CSV-IMPORT,T1553 Subvert Trust Controls -> T1553.006 Code Signing Policy Modification
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.001 Keychain
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.002 Securityd Memory
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.003 Credentials from Web Browsers
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.004 Windows Credential Manager
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.005 Password Managers
+DETE-1,CSV-IMPORT,T1555 Credentials from Password Stores -> T1555.006 Cloud Secrets Management Stores
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.001 Domain Controller Authentication
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.002 Password Filter DLL
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.003 Pluggable Authentication Modules
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.004 Network Device Authentication
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.005 Reversible Encryption
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.006 Multi-Factor Authentication
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.007 Hybrid Identity
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.008 Network Provider DLL
+DETE-1,CSV-IMPORT,T1556 Modify Authentication Process -> T1556.009 Conditional Access Policies
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.001 LLMNR/NBT-NS Poisoning and SMB Relay
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.002 ARP Cache Poisoning
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.003 DHCP Spoofing
+DETE-1,CSV-IMPORT,T1557 Adversary-in-the-Middle -> T1557.004 Evil Twin
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.001 Golden Ticket
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.002 Silver Ticket
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.003 Kerberoasting
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.004 AS-REP Roasting
+DETE-1,CSV-IMPORT,T1558 Steal or Forge Kerberos Tickets -> T1558.005 Ccache Files
+DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.001 Component Object Model
+DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.002 Dynamic Data Exchange
+DETE-1,CSV-IMPORT,T1559 Inter-Process Communication -> T1559.003 XPC Services
+DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.001 Archive via Utility
+DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.002 Archive via Library
+DETE-1,CSV-IMPORT,T1560 Archive Collected Data -> T1560.003 Archive via Custom Method
+DETE-1,CSV-IMPORT,T1561 Disk Wipe -> T1561.001 Disk Content Wipe
+DETE-1,CSV-IMPORT,T1561 Disk Wipe -> T1561.002 Disk Structure Wipe
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.001 Disable or Modify Tools
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.002 Disable Windows Event Logging
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.003 Impair Command History Logging
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.004 Disable or Modify System Firewall
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.006 Indicator Blocking
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.007 Disable or Modify Cloud Firewall
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.008 Disable or Modify Cloud Logs
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.009 Safe Mode Boot
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.010 Downgrade Attack
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.011 Spoof Security Alerting
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.012 Disable or Modify Linux Audit System
+DETE-1,CSV-IMPORT,T1562 Impair Defenses -> T1562.013 Disable or Modify Network Device Firewall
+DETE-1,CSV-IMPORT,T1563 Remote Service Session Hijacking -> T1563.001 SSH Hijacking
+DETE-1,CSV-IMPORT,T1563 Remote Service Session Hijacking -> T1563.002 RDP Hijacking
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.001 Hidden Files and Directories
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.002 Hidden Users
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.003 Hidden Window
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.004 NTFS File Attributes
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.005 Hidden File System
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.006 Run Virtual Instance
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.007 VBA Stomping
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.008 Email Hiding Rules
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.009 Resource Forking
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.010 Process Argument Spoofing
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.011 Ignore Process Interrupts
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.012 File/Path Exclusions
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.013 Bind Mounts
+DETE-1,CSV-IMPORT,T1564 Hide Artifacts -> T1564.014 Extended Attributes
+DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.001 Stored Data Manipulation
+DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.002 Transmitted Data Manipulation
+DETE-1,CSV-IMPORT,T1565 Data Manipulation -> T1565.003 Runtime Data Manipulation
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.001 Spearphishing Attachment
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.002 Spearphishing Link
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.003 Spearphishing via Service
+DETE-1,CSV-IMPORT,T1566 Phishing -> T1566.004 Spearphishing Voice
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.001 Exfiltration to Code Repository
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.002 Exfiltration to Cloud Storage
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.003 Exfiltration to Text Storage Sites
+DETE-1,CSV-IMPORT,T1567 Exfiltration Over Web Service -> T1567.004 Exfiltration Over Webhook
+DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.001 Fast Flux DNS
+DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.002 Domain Generation Algorithms
+DETE-1,CSV-IMPORT,T1568 Dynamic Resolution -> T1568.003 DNS Calculation
+DETE-1,CSV-IMPORT,T1569 System Services -> T1569.001 Launchctl
+DETE-1,CSV-IMPORT,T1569 System Services -> T1569.002 Service Execution
+DETE-1,CSV-IMPORT,T1569 System Services -> T1569.003 Systemctl
+DETE-1,CSV-IMPORT,T1573 Encrypted Channel -> T1573.001 Symmetric Cryptography
+DETE-1,CSV-IMPORT,T1573 Encrypted Channel -> T1573.002 Asymmetric Cryptography
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.001 DLL
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.004 Dylib Hijacking
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.005 Executable Installer File Permissions Weakness
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.006 Dynamic Linker Hijacking
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.007 Path Interception by PATH Environment Variable
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.008 Path Interception by Search Order Hijacking
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.009 Path Interception by Unquoted Path
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.010 Services File Permissions Weakness
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.011 Services Registry Permissions Weakness
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.012 COR_PROFILER
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.013 KernelCallbackTable
+DETE-1,CSV-IMPORT,T1574 Hijack Execution Flow -> T1574.014 AppDomainManager
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.001 Create Snapshot
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.002 Create Cloud Instance
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.003 Delete Cloud Instance
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.004 Revert Cloud Instance
+DETE-1,CSV-IMPORT,T1578 Modify Cloud Compute Infrastructure -> T1578.005 Modify Cloud Compute Configurations
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.001 Domains
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.002 DNS Server
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.003 Virtual Private Server
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.004 Server
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.005 Botnet
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.006 Web Services
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.007 Serverless
+DETE-1,CSV-IMPORT,T1583 Acquire Infrastructure -> T1583.008 Malvertising
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.001 Domains
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.002 DNS Server
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.003 Virtual Private Server
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.004 Server
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.005 Botnet
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.006 Web Services
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.007 Serverless
+DETE-1,CSV-IMPORT,T1584 Compromise Infrastructure -> T1584.008 Network Devices
+DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.001 Social Media Accounts
+DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.002 Email Accounts
+DETE-1,CSV-IMPORT,T1585 Establish Accounts -> T1585.003 Cloud Accounts
+DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.001 Social Media Accounts
+DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.002 Email Accounts
+DETE-1,CSV-IMPORT,T1586 Compromise Accounts -> T1586.003 Cloud Accounts
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.001 Malware
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.002 Code Signing Certificates
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.003 Digital Certificates
+DETE-1,CSV-IMPORT,T1587 Develop Capabilities -> T1587.004 Exploits
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.001 Malware
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.002 Tool
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.003 Code Signing Certificates
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.004 Digital Certificates
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.005 Exploits
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.006 Vulnerabilities
+DETE-1,CSV-IMPORT,T1588 Obtain Capabilities -> T1588.007 Artificial Intelligence
+DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.001 Credentials
+DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.002 Email Addresses
+DETE-1,CSV-IMPORT,T1589 Gather Victim Identity Information -> T1589.003 Employee Names
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.001 Domain Properties
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.002 DNS
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.003 Network Trust Dependencies
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.004 Network Topology
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.005 IP Addresses
+DETE-1,CSV-IMPORT,T1590 Gather Victim Network Information -> T1590.006 Network Security Appliances
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.001 Determine Physical Locations
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.002 Business Relationships
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.003 Identify Business Tempo
+DETE-1,CSV-IMPORT,T1591 Gather Victim Org Information -> T1591.004 Identify Roles
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.001 Hardware
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.002 Software
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.003 Firmware
+DETE-1,CSV-IMPORT,T1592 Gather Victim Host Information -> T1592.004 Client Configurations
+DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.001 Social Media
+DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.002 Search Engines
+DETE-1,CSV-IMPORT,T1593 Search Open Websites/Domains -> T1593.003 Code Repositories
+DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.001 Scanning IP Blocks
+DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.002 Vulnerability Scanning
+DETE-1,CSV-IMPORT,T1595 Active Scanning -> T1595.003 Wordlist Scanning
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.001 DNS/Passive DNS
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.002 WHOIS
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.003 Digital Certificates
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.004 CDNs
+DETE-1,CSV-IMPORT,T1596 Search Open Technical Databases -> T1596.005 Scan Databases
+DETE-1,CSV-IMPORT,T1597 Search Closed Sources -> T1597.001 Threat Intel Vendors
+DETE-1,CSV-IMPORT,T1597 Search Closed Sources -> T1597.002 Purchase Technical Data
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.001 Spearphishing Service
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.002 Spearphishing Attachment
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.003 Spearphishing Link
+DETE-1,CSV-IMPORT,T1598 Phishing for Information -> T1598.004 Spearphishing Voice
+DETE-1,CSV-IMPORT,T1599 Network Boundary Bridging -> T1599.001 Network Address Translation Traversal
 DETE-1,CSV-IMPORT,T1600 Weaken Encryption -> T1600.001 Reduce Key Space
-DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.002 Bidirectional Communication
-DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.001 Dead Drop Resolver
-DETE-1,CSV-IMPORT,T1102 Web Service -> T1102.003 One-Way Communication
+DETE-1,CSV-IMPORT,T1600 Weaken Encryption -> T1600.002 Disable Crypto Hardware
+DETE-1,CSV-IMPORT,T1601 Modify System Image -> T1601.001 Patch System Image
+DETE-1,CSV-IMPORT,T1601 Modify System Image -> T1601.002 Downgrade System Image
+DETE-1,CSV-IMPORT,T1602 Data from Configuration Repository -> T1602.001 SNMP (MIB Dump)
+DETE-1,CSV-IMPORT,T1602 Data from Configuration Repository -> T1602.002 Network Device Configuration Dump
+DETE-1,CSV-IMPORT,T1606 Forge Web Credentials -> T1606.001 Web Cookies
+DETE-1,CSV-IMPORT,T1606 Forge Web Credentials -> T1606.002 SAML Tokens
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.001 Upload Malware
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.002 Upload Tool
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.003 Install Digital Certificate
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.004 Drive-by Target
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.005 Link Target
+DETE-1,CSV-IMPORT,T1608 Stage Capabilities -> T1608.006 SEO Poisoning
+DETE-1,CSV-IMPORT,T1614 System Location Discovery -> T1614.001 System Language Discovery
