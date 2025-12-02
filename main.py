@@ -43,7 +43,8 @@ for _, row in subs.iterrows():
     rows.append({
         "IssueKey": "DETE-9",          # existierendes Issue
         "Summary": "CSV-IMPORT",       # Jira verlangt die Spalte Summary
-        "MITRE": mitre_field           # Custom-Field-Wert
+        "MITRE": mitre_field,          # Custom-Field-Wert
+        "Tactics": row.get("tactics", "")
     })
 
 out = pd.DataFrame(rows)
